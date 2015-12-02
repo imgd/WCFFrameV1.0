@@ -48,14 +48,14 @@ namespace Com.Alipay.Touch
             //↓↓↓↓↓↓↓↓↓↓请在这里配置您的基本信息↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
 
             //合作身份者ID，以2088开头由16位纯数字组成的字符串
-            partner = "2088911274913526";
+            partner = "";
 
             //收款支付宝账号
-            seller_email = "zfb@sucool.com";
+            seller_email = "";
 
             //交易安全检验码，由数字和字母组成的32位字符串
             //如果签名方式设置为“MD5”时，请设置该参数
-            key = "xi5ir0d26bupvpzntuqsjx873920qqbj";
+            key = "";
 
             //商户的私钥
             //如果签名方式设置为“0001”时，请设置该参数
@@ -77,20 +77,20 @@ namespace Com.Alipay.Touch
             //无线的产品中，签名方式为rsa时，sign_type需赋值为0001而不是RSA
 
             //服务器异步通知页面路径
-            notify_url = "http://wcfservice.sucool.com/Alipay/PostBackZFB_touch.ashx";
+            notify_url = "";
 
             //页面跳转同步通知页面路径
-            call_back_url = "http://m.sucool.com/PayProcess/PayAfter/PayResult_ZFB.aspx";
+            call_back_url = "";
 
             //操作中断返回地址
-            merchant_url = "http://www.sucool.com/404/";
+            merchant_url = "";
 
             //支付宝网关地址
-            gateway_new = "http://wappaygw.alipay.com/service/rest.htm?";
+            gateway_new = "";
 
             //移动端 RSA 签名 公/私钥
-            rsa_publickey = "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDCbWuv9kh60Lwnp9D5Mvh229h9d3/Wtfd59glBC5LXswiuf1JPRixWgbIShu5ruNu6kpAUmvndazcPFDGD6yEgkClqW/q+JIX6wK4YO977Q+Qv5PFdQ9evNZ2HXKyEtVcO31Qdebo5CpcrLdR/9g3uT3xHQGM9D9zR7yZJxUoGZwIDAQAB";
-            rsa_privatekey = "MIICXQIBAAKBgQDCbWuv9kh60Lwnp9D5Mvh229h9d3/Wtfd59glBC5LXswiuf1JPRixWgbIShu5ruNu6kpAUmvndazcPFDGD6yEgkClqW/q+JIX6wK4YO977Q+Qv5PFdQ9evNZ2HXKyEtVcO31Qdebo5CpcrLdR/9g3uT3xHQGM9D9zR7yZJxUoGZwIDAQABAoGBAI5XZXuRp0ajAt1Vcxy+QEFken6AuksLNX9IrUW9n2fjXvvBoxT+nv9GPIRr3Klo0RUqr+kl/MAp+klD02xs+/Z/s+Op7w4qIlGTuVyiTj1yF6eg0tf5gOP0UDWscrJH4RSYeqa4nqkUhNJ4u5rIyi2dBfa9FfbX793HUZ/aPnWhAkEA7kcJQOsnxE24M2ckbtHKDCeTSODBhf813LPCWFZttaJWAx+hpXB3Z1VdeDzLx3GnTC0qTNx/wiNiEfxHoGwWcwJBANDjcybI29alK79aB8dxzQOib9+vaV9AkthIXnxBm6tzQ1H5tiPdq5h4FQxQ+nBGfXuING7LlwFpVJfIoNL8Xz0CQQCfWxbPOfXwjWHhzttI2jlcg6M3HEmRCivFnNsfJT5eOWF42VDMSjkw/KB0Z4SJsHMIuTQPD3DKL8vI54YnveINAkBhUNWgyArDIQgUiZj+LeJZQx/jkhEBM1A2OuDp+pbPdU9zrWZRpz/+NFN5/W/vRqfHGVl0FJ0xJyUl4W4rXS/xAkBaNaVfUDYxOee5jpRbuIJPsKtarZoARJeMkG8xNVBvNMDM6sX6i65Tx+pZdcYPf+zKd3HbBuGpXTFZj6uYxmE2";
+            rsa_publickey = "";
+            rsa_privatekey = "";
         }
 
         #region 属性

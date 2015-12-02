@@ -36,11 +36,7 @@ namespace WCF.Service.alipay
                 try
                 {
                     //确认付款
-                    int result = 1;
-                    //new ShopCart_BLL().OrderPaySuccess(order_no,
-                    //    Convert.ToDecimal(retmodel.paymentMoney),
-                    //    new EventMarketing_BLL().GetSKSystemBalanceMoney(
-                    //GoldBook_Enum.SKSystemSendYEEnum.BuyingSuccess));
+                    int result = 1;                    
 
                     if (result == 1)
                     {

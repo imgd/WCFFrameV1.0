@@ -18,11 +18,11 @@ namespace Com.Alipay
         /// <summary>
         /// 商户号:中联支付平台分配
         /// </summary>
-        public const string merchantCode = "1000000246";        
+        public const string merchantCode = "";        
         /// <summary>
         /// 商户私钥：商户按照指定格式自己产生一组RSA密钥，私钥商户自己保存并用于商户签名，并将该密钥的公钥发给支付平台用作验签
         /// </summary>
-        public const string merPriRsaKey = "6E3B259CF2D8A3DB81ABC5C508E1DDE7";        
+        public const string merPriRsaKey = "";        
         /// <summary>
         /// 支付平台测试公网地址
         /// </summary>
@@ -38,11 +38,11 @@ namespace Com.Alipay
         /// <summary>
         /// 支付成功后通知商户页面地址(同步)--此地址具体配置访问信息由客户端决定，Demo目录随用户服务器配置可能发生变化{IP处修改为客户服务器IP或域名信息}
         /// </summary>
-        public const string merUrl = "http://www.sucool.com/PayProcess/PayAfter/PayReturn_ZlinePay.aspx";
+        public const string merUrl = "";
         /// <summary>
         /// 支付成功后通知商户服务器地址(异步)--此地址具体配置访问信息由客户端决定，Demo目录随用户服务器配置可能发生变化{IP处修改为客户服务器IP或域名信息}
         /// </summary>
-        public const string noticeUrl = "http://wcfservice.sucool.com/Alipay/PostBackLine.ashx";
+        public const string noticeUrl = "";
         /// <summary>
         /// 尾字符Key定义
         /// </summary>

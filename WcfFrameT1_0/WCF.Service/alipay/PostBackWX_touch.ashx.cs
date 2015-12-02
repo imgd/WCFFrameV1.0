@@ -36,9 +36,9 @@ namespace WCF.Service.alipay
                 //string order_no = results.OrderNumber;
                 //try
                 //{
-                //    ShopCart_BLL bll = new ShopCart_BLL();                    
+                //                   
                 //    //确认付款
-                //    int result = bll.OrderPaySuccess(order_no, Convert.ToDecimal(results.TotalFell));
+                //    int result =1; 
 
                 //    if (result > 1)
                 //    {

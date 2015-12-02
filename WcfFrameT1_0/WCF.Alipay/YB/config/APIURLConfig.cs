@@ -68,13 +68,13 @@ using System.Text;
             clearRefundDataURI = "/query_server/refund_clear_data";
 
             //异步支付页面url
-            callbackUrl = "http://wcfservice.sucool.com/Alipay/PostBackYB.ashx";
+            callbackUrl = "";
 
             //同步支付页面url
-            fcallbackUrl = "http://www.sucool.com/PayProcess/PayAfter/PayResult_YeePay.aspx";
+            fcallbackUrl = "";
 
             //同步支付页面url touch
-            fcallbackUrl_Mobile = "http://m.sucool.com/PayProcess/PayAfter/PayResult_YeePay.aspx";
+            fcallbackUrl_Mobile = "";
 
             //商户AESkey
             merchantAesKey = AES.GenerateAESKey();

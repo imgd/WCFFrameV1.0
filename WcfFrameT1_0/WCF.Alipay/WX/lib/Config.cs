@@ -18,17 +18,17 @@ namespace WxPayAPI
         * KEY：商户支付密钥，参考开户邮件设置（必须配置）
         * APPSECRET：公众帐号secert（仅JSAPI支付的时候需要配置）
         */
-        public const string APPID = "wxef7bacf2e347ec38";
-        public const string MCHID = "1252073501";
-        public const string KEY = "sc322322PK12520735011252073501HD";
-        public const string APPSECRET = "7fc6b2dc4a112644f8bac4b07977a38e";
+        public const string APPID = "";
+        public const string MCHID = "";
+        public const string KEY = "";
+        public const string APPSECRET = "";
 
 
         /*APP微信支付参数（ps:蛋疼）*/
-        public const string APPID_APP = "wx9a1df1d570248e4d";
-        public const string MCHID_APP = "1263682601";
-        public const string KEY_APP = "1a13f6576f5166318e195c61fbbdc4b6";
-        public const string APPSECRET_APP = "46d35142a06f46b8a94c38542a8f2289";
+        public const string APPID_APP = "";
+        public const string MCHID_APP = "";
+        public const string KEY_APP = "";
+        public const string APPSECRET_APP = "";
 
 
         //=======【证书路径设置】===================================== 
@@ -42,7 +42,7 @@ namespace WxPayAPI
         //=======【支付结果通知url】===================================== 
         /* 支付结果通知回调url，用于商户接收支付结果
         */
-        public static readonly string NOTIFY_URL = AlipayConfig.BaseDomain + "/Alipay/PostBackWX_touch.ashx";
+        public static readonly string NOTIFY_URL = "";
 
         //=======【商户系统后台机器IP】===================================== 
         /* 此参数可手动配置也可在程序中自动获取

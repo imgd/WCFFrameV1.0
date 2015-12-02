@@ -39,13 +39,13 @@ namespace Com.Alipay
             //↓↓↓↓↓↓↓↓↓↓请在这里配置您的基本信息↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
 
             //合作身份者ID，以2088开头由16位纯数字组成的字符串
-            partner = "2088911274913526";
+            partner = "";
 
             //交易安全检验码，由数字和字母组成的32位字符串
-            key = "xi5ir0d26bupvpzntuqsjx873920qqbj";
+            key = "";
 
             //签约支付宝账号或卖家支付宝帐户
-            seller_email = "zfb@sucool.com";
+            seller_email = "";
 
             //↑↑↑↑↑↑↑↑↑↑请在这里配置您的基本信息↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑
 
@@ -56,9 +56,9 @@ namespace Com.Alipay
             sign_type = "MD5";
 
             //同步页面
-            return_url = "http://www.sucool.com/PayProcess/PayAfter/PayReturn_ZFB.aspx";
+            return_url = "";
             //异步页面
-            notify_url = "http://wcfservice.sucool.com/Alipay/PostBackZFB.ashx";
+            notify_url = "";
 
 
            /*touch属性*/
