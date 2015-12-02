@@ -1,0 +1,10 @@
+G:\mywork\其他项目\项目框架\WcfFrameT1_0\WCF.Alipay\obj\Debug\WCF.Alipay.csprojResolveAssemblyReference.cache
+G:\mywork\其他项目\项目框架\WcfFrameT1_0\WCF.Alipay\bin\Debug\WCF.Alipay.dll
+G:\mywork\其他项目\项目框架\WcfFrameT1_0\WCF.Alipay\bin\Debug\WCF.Alipay.pdb
+G:\mywork\其他项目\项目框架\WcfFrameT1_0\WCF.Alipay\bin\Debug\UPOPSDK.dll
+G:\mywork\其他项目\项目框架\WcfFrameT1_0\WCF.Alipay\bin\Debug\WCF.Common.dll
+G:\mywork\其他项目\项目框架\WcfFrameT1_0\WCF.Alipay\bin\Debug\WCF.Common.pdb
+G:\mywork\其他项目\项目框架\WcfFrameT1_0\WCF.Alipay\obj\Debug\WCF.Alipay.dll
+G:\mywork\其他项目\项目框架\WcfFrameT1_0\WCF.Alipay\obj\Debug\WCF.Alipay.pdb
+G:\mywork\其他项目\项目框架\WcfFrameT1_0\WCF.Service\dll\WCF.Alipay.dll
+G:\mywork\其他项目\项目框架\WcfFrameT1_0\WCF.Service\dll\WCF.Alipay.pdb

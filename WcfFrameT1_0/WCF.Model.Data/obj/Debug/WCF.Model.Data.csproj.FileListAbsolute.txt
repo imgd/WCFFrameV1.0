@@ -1,0 +1,11 @@
+G:\mywork\其他项目\项目框架\WcfFrameT1_0\WCF.Model.Data\bin\Debug\WCF.Model.Data.dll.config
+G:\mywork\其他项目\项目框架\WcfFrameT1_0\WCF.Model.Data\bin\Debug\WCF.Model.Data.dll
+G:\mywork\其他项目\项目框架\WcfFrameT1_0\WCF.Model.Data\bin\Debug\WCF.Model.Data.pdb
+G:\mywork\其他项目\项目框架\WcfFrameT1_0\WCF.Model.Data\bin\Debug\EntityFramework.dll
+G:\mywork\其他项目\项目框架\WcfFrameT1_0\WCF.Model.Data\bin\Debug\EntityFramework.xml
+G:\mywork\其他项目\项目框架\WcfFrameT1_0\WCF.Model.Data\bin\Debug\zh-Hans\EntityFramework.resources.dll
+G:\mywork\其他项目\项目框架\WcfFrameT1_0\WCF.Model.Data\obj\Debug\WCF.Model.Data.csprojResolveAssemblyReference.cache
+G:\mywork\其他项目\项目框架\WcfFrameT1_0\WCF.Model.Data\obj\Debug\WCF.Model.Data.dll
+G:\mywork\其他项目\项目框架\WcfFrameT1_0\WCF.Model.Data\obj\Debug\WCF.Model.Data.pdb
+G:\mywork\其他项目\项目框架\WcfFrameT1_0\WCF.Service\dll\WCF.Model.Data.dll
+G:\mywork\其他项目\项目框架\WcfFrameT1_0\WCF.Service\dll\WCF.Model.Data.pdb

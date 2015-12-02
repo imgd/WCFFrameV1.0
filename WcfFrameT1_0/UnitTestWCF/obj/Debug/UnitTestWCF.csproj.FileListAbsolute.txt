@@ -1,0 +1,11 @@
+G:\mywork\其他项目\项目框架\WcfFrameT1_0\UnitTestWCF\obj\Debug\UnitTestWCF.csprojResolveAssemblyReference.cache
+G:\mywork\其他项目\项目框架\WcfFrameT1_0\UnitTestWCF\bin\Debug\UnitTestWCF.dll
+G:\mywork\其他项目\项目框架\WcfFrameT1_0\UnitTestWCF\bin\Debug\UnitTestWCF.pdb
+G:\mywork\其他项目\项目框架\WcfFrameT1_0\UnitTestWCF\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
+G:\mywork\其他项目\项目框架\WcfFrameT1_0\UnitTestWCF\bin\Debug\WCF.Inspector.dll
+G:\mywork\其他项目\项目框架\WcfFrameT1_0\UnitTestWCF\bin\Debug\WCF.Common.dll
+G:\mywork\其他项目\项目框架\WcfFrameT1_0\UnitTestWCF\bin\Debug\WCF.Inspector.pdb
+G:\mywork\其他项目\项目框架\WcfFrameT1_0\UnitTestWCF\bin\Debug\WCF.Common.pdb
+G:\mywork\其他项目\项目框架\WcfFrameT1_0\UnitTestWCF\bin\Debug\zh-Hans\Microsoft.QualityTools.Testing.Fakes.resources.dll
+G:\mywork\其他项目\项目框架\WcfFrameT1_0\UnitTestWCF\obj\Debug\UnitTestWCF.dll
+G:\mywork\其他项目\项目框架\WcfFrameT1_0\UnitTestWCF\obj\Debug\UnitTestWCF.pdb

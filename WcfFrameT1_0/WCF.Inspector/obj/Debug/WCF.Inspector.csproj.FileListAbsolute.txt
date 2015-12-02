@@ -1,0 +1,7 @@
+G:\mywork\其他项目\项目框架\WcfFrameT1_0\WCF.Inspector\bin\Debug\WCF.Inspector.dll
+G:\mywork\其他项目\项目框架\WcfFrameT1_0\WCF.Inspector\bin\Debug\WCF.Inspector.pdb
+G:\mywork\其他项目\项目框架\WcfFrameT1_0\WCF.Inspector\obj\Debug\WCF.Inspector.dll
+G:\mywork\其他项目\项目框架\WcfFrameT1_0\WCF.Inspector\obj\Debug\WCF.Inspector.pdb
+G:\mywork\其他项目\项目框架\WcfFrameT1_0\WCF.Service\dll\WCF.Inspector.dll
+G:\mywork\其他项目\项目框架\WcfFrameT1_0\WCF.Service\dll\WCF.Inspector.pdb
+G:\mywork\其他项目\项目框架\WcfFrameT1_0\WCF.Inspector\obj\Debug\WCF.Inspector.csprojResolveAssemblyReference.cache

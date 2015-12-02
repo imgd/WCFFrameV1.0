@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1E1D63B7-843F-4285-848C-08184CB343EC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WCF.Alipay</RootNamespace>
+    <AssemblyName>WCF.Alipay</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\WCF.Service\dll\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="LitJson">
+      <HintPath>..\..\..\..\mywork\Sucool_3.0\Sucool.WcfService\bin\LitJson.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json.Net20">
+      <HintPath>C:\Users\Administrator\Desktop\dll\Newtonsoft.Json.Net20.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UPOPSDK">
+      <HintPath>..\..\..\..\mywork\Sucool_3.0\Sucool.InternetFace\bin\Debug\UPOPSDK.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AlipayConfig.cs" />
+    <Compile Include="LINEEntranceManager.cs" />
+    <Compile Include="LINE\ProperConst.cs" />
+    <Compile Include="LINE\RSAOperate.cs" />
+    <Compile Include="LINE\RSASign.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UPOPEntranceManager.cs" />
+    <Compile Include="WXEntranceManager.cs" />
+    <Compile Include="WX\business\DownloadBill.cs" />
+    <Compile Include="WX\business\JsApiPay.cs" />
+    <Compile Include="WX\business\MicroPay.cs" />
+    <Compile Include="WX\business\NativeNotify.cs" />
+    <Compile Include="WX\business\NativePay.cs" />
+    <Compile Include="WX\business\OrderQuery.cs" />
+    <Compile Include="WX\business\Refund.cs" />
+    <Compile Include="WX\business\RefundQuery.cs" />
+    <Compile Include="WX\business\ResultNotify.cs" />
+    <Compile Include="WX\lib\Config.cs" />
+    <Compile Include="WX\lib\Data.cs" />
+    <Compile Include="WX\lib\Exception.cs" />
+    <Compile Include="WX\lib\HttpService.cs" />
+    <Compile Include="WX\lib\Log.cs" />
+    <Compile Include="WX\lib\Notify.cs" />
+    <Compile Include="WX\lib\WxPayApi.cs" />
+    <Compile Include="YBEntranceManager.cs" />
+    <Compile Include="YB\AES\AES.cs" />
+    <Compile Include="YB\AES\TestAES.cs" />
+    <Compile Include="YB\config\APIURLConfig.cs" />
+    <Compile Include="YB\config\Config.cs" />
+    <Compile Include="YB\Entity\RespondJson.cs" />
+    <Compile Include="YB\RSA\RSA.cs" />
+    <Compile Include="YB\RSA\TestRSA.cs" />
+    <Compile Include="YB\Test\BankcardCheckTest.cs" />
+    <Compile Include="YB\Test\BindListTest.cs" />
+    <Compile Include="YB\Test\BindPayTest.cs" />
+    <Compile Include="YB\Test\ClearPayDataTest.cs" />
+    <Compile Include="YB\Test\ClearRefundDataTest.cs" />
+    <Compile Include="YB\Test\CreditMobilePayTest.cs" />
+    <Compile Include="YB\Test\DebitMobilePayTest.cs" />
+    <Compile Include="YB\Test\DirectRefundTest.cs" />
+    <Compile Include="YB\Test\MobilePayTest.cs" />
+    <Compile Include="YB\Test\PCPayTest.cs" />
+    <Compile Include="YB\Test\QueryPayInfoTest.cs" />
+    <Compile Include="YB\Test\QueryPayResultTest.cs" />
+    <Compile Include="YB\Test\QueryRefundInfoTest.cs" />
+    <Compile Include="YB\Test\TestSuit.cs" />
+    <Compile Include="YB\Test\UnBindTest.cs" />
+    <Compile Include="YB\Util\EncryptUtil.cs" />
+    <Compile Include="YB\Util\HttpUtil.cs" />
+    <Compile Include="YB\Util\YBPAY.cs" />
+    <Compile Include="YB\Util\YJPay.cs" />
+    <Compile Include="YB\Util\YJPayUtil.cs" />
+    <Compile Include="ZFBEntranceManager.cs" />
+    <Compile Include="ZFB\AlipayConfig.cs" />
+    <Compile Include="ZFB\AlipayCore.cs" />
+    <Compile Include="ZFB\AlipayNotify.cs" />
+    <Compile Include="ZFB\AlipayService.cs" />
+    <Compile Include="ZFB\AlipaySubmit.cs" />
+    <Compile Include="ZFB\touch\AlipayConfig.cs" />
+    <Compile Include="ZFB\touch\AlipayCore.cs" />
+    <Compile Include="ZFB\touch\AlipayNotify.cs" />
+    <Compile Include="ZFB\touch\AlipaySubmit.cs" />
+    <Compile Include="ZFB\touch\MD5.cs" />
+    <Compile Include="ZFB\touch\RSA.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WCF.Common\WCF.Common.csproj">
+      <Project>{4b475e7d-74ba-41c6-b138-de3727261950}</Project>
+      <Name>WCF.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="WX\cert\apiclient_cert.p12" />
+    <None Include="YB\config\config.rar" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

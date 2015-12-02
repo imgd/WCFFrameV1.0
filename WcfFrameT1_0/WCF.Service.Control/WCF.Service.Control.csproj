@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7CFD41CD-58E2-4D86-9746-10D2FB2E0582}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WCF.Service.Control</RootNamespace>
+    <AssemblyName>WCF.Service.Control</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\WCF.Service\dll\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AreaData_Service.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="MsmqTest_Service.cs" />
+    <Compile Include="OrderInfo_Service.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="desc.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WCF.BLL\WCF.BLL.csproj">
+      <Project>{752c9c2a-f8c4-4293-9c27-eede4368030e}</Project>
+      <Name>WCF.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WCF.Common\WCF.Common.csproj">
+      <Project>{4b475e7d-74ba-41c6-b138-de3727261950}</Project>
+      <Name>WCF.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WCF.IBLL\WCF.IBLL.csproj">
+      <Project>{db236f54-feb3-423d-a3fc-52395ebf84c5}</Project>
+      <Name>WCF.IBLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WCF.Inspector\WCF.Inspector.csproj">
+      <Project>{ca003ba8-2cdb-4d0a-acae-f2b4c217fac1}</Project>
+      <Name>WCF.Inspector</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WCF.Model.Data\WCF.Model.Data.csproj">
+      <Project>{36103921-3fa9-489c-8d91-03f718e14131}</Project>
+      <Name>WCF.Model.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WCF.Model.Service\WCF.Model.Service.csproj">
+      <Project>{ab6cde76-3237-4dfb-82e0-e88da89917e2}</Project>
+      <Name>WCF.Model.Service</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WCF.Service.Interface\WCF.Service.Interface.csproj">
+      <Project>{42c49e22-5e11-46bc-99df-8f616f0f28f1}</Project>
+      <Name>WCF.Service.Interface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WCF.Service.MSMQ\WCF.Service.MSMQ.csproj">
+      <Project>{64ff8808-6060-4b91-8243-09884c50fc49}</Project>
+      <Name>WCF.Service.MSMQ</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,1852 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Sucool_DBModelStoreContainer" CdmEntityContainer="Sucool_DB_Entities">
+    <EntitySetMapping Name="AdminUsers">
+      <EntityTypeMapping TypeName="Sucool_DBModel.AdminUsers">
+        <MappingFragment StoreEntitySet="AdminUsers">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="PassWord" ColumnName="PassWord" />
+          <ScalarProperty Name="LoginTime" ColumnName="LoginTime" />
+          <ScalarProperty Name="LoginIp" ColumnName="LoginIp" />
+          <ScalarProperty Name="UserState" ColumnName="UserState" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Aftersales">
+      <EntityTypeMapping TypeName="Sucool_DBModel.Aftersales">
+        <MappingFragment StoreEntitySet="Aftersales">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="SalesType" ColumnName="SalesType" />
+          <ScalarProperty Name="Contents" ColumnName="Contents" />
+          <ScalarProperty Name="Contact" ColumnName="Contact" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="OrderNumber" ColumnName="OrderNumber" />
+          <ScalarProperty Name="SubTime" ColumnName="SubTime" />
+          <ScalarProperty Name="ProcessingStatus" ColumnName="ProcessingStatus" />
+          <ScalarProperty Name="ProcessingPeople" ColumnName="ProcessingPeople" />
+          <ScalarProperty Name="Result" ColumnName="Result" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AreaData">
+      <EntityTypeMapping TypeName="Sucool_DBModel.AreaData">
+        <MappingFragment StoreEntitySet="AreaData">
+          <ScalarProperty Name="Area_Id" ColumnName="Area_Id" />
+          <ScalarProperty Name="Area_Code" ColumnName="Area_Code" />
+          <ScalarProperty Name="Area_Name" ColumnName="Area_Name" />
+          <ScalarProperty Name="Parent_Id" ColumnName="Parent_Id" />
+          <ScalarProperty Name="Top_Id" ColumnName="Top_Id" />
+          <ScalarProperty Name="Area_Level" ColumnName="Area_Level" />
+          <ScalarProperty Name="Area_Name_EN" ColumnName="Area_Name_EN" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BalanceOfPaymentsDetails">
+      <EntityTypeMapping TypeName="Sucool_DBModel.BalanceOfPaymentsDetails">
+        <MappingFragment StoreEntitySet="BalanceOfPaymentsDetails">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="AboutUserId" ColumnName="AboutUserId" />
+          <ScalarProperty Name="BPNum" ColumnName="BPNum" />
+          <ScalarProperty Name="BPDescription" ColumnName="BPDescription" />
+          <ScalarProperty Name="IsBORP" ColumnName="IsBORP" />
+          <ScalarProperty Name="AboutOrderNumber" ColumnName="AboutOrderNumber" />
+          <ScalarProperty Name="AboutTime" ColumnName="AboutTime" />
+          <ScalarProperty Name="BPType" ColumnName="BPType" />
+          <ScalarProperty Name="BPWay" ColumnName="BPWay" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BalDetail">
+      <EntityTypeMapping TypeName="Sucool_DBModel.BalDetail">
+        <MappingFragment StoreEntitySet="BalDetail">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="User_Id" ColumnName="User_Id" />
+          <ScalarProperty Name="PayIP" ColumnName="PayIP" />
+          <ScalarProperty Name="PayTime" ColumnName="PayTime" />
+          <ScalarProperty Name="PaySum" ColumnName="PaySum" />
+          <ScalarProperty Name="Pay_type" ColumnName="Pay_type" />
+          <ScalarProperty Name="OrderUser_Id" ColumnName="OrderUser_Id" />
+          <ScalarProperty Name="GetSum" ColumnName="GetSum" />
+          <ScalarProperty Name="OrderId" ColumnName="OrderId" />
+          <ScalarProperty Name="BuyDetail" ColumnName="BuyDetail" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ChatMessage">
+      <EntityTypeMapping TypeName="Sucool_DBModel.ChatMessage">
+        <MappingFragment StoreEntitySet="ChatMessage">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="SendUserId" ColumnName="SendUserId" />
+          <ScalarProperty Name="ReceiveUserId" ColumnName="ReceiveUserId" />
+          <ScalarProperty Name="Content" ColumnName="Content" />
+          <ScalarProperty Name="SendTime" ColumnName="SendTime" />
+          <ScalarProperty Name="ParentId" ColumnName="ParentId" />
+          <ScalarProperty Name="AttachmentName" ColumnName="AttachmentName" />
+          <ScalarProperty Name="AttachmentUrl" ColumnName="AttachmentUrl" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="ChatMessageIsRead" ColumnName="ChatMessageIsRead" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Consult">
+      <EntityTypeMapping TypeName="Sucool_DBModel.Consult">
+        <MappingFragment StoreEntitySet="Consult">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="Businessid" ColumnName="Businessid" />
+          <ScalarProperty Name="Quescontent" ColumnName="Quescontent" />
+          <ScalarProperty Name="Anscontent" ColumnName="Anscontent" />
+          <ScalarProperty Name="status" ColumnName="status" />
+          <ScalarProperty Name="AppLnvTime" ColumnName="AppLnvTime" />
+          <ScalarProperty Name="Addtime" ColumnName="Addtime" />
+          <ScalarProperty Name="Is_New" ColumnName="Is_New" />
+          <ScalarProperty Name="ConType" ColumnName="ConType" />
+          <ScalarProperty Name="SakType" ColumnName="SakType" />
+          <ScalarProperty Name="ProductId" ColumnName="ProductId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="County">
+      <EntityTypeMapping TypeName="Sucool_DBModel.County">
+        <MappingFragment StoreEntitySet="County">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="EN_Name" ColumnName="EN_Name" />
+          <ScalarProperty Name="CN_Name" ColumnName="CN_Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CouponsInvalidRemind">
+      <EntityTypeMapping TypeName="Sucool_DBModel.CouponsInvalidRemind">
+        <MappingFragment StoreEntitySet="CouponsInvalidRemind">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="C_Id" ColumnName="C_Id" />
+          <ScalarProperty Name="U_Id" ColumnName="U_Id" />
+          <ScalarProperty Name="UseInvalidTime" ColumnName="UseInvalidTime" />
+          <ScalarProperty Name="LastSendTime_phone" ColumnName="LastSendTime_phone" />
+          <ScalarProperty Name="SendPhone_number" ColumnName="SendPhone_number" />
+          <ScalarProperty Name="LastSendTime_email" ColumnName="LastSendTime_email" />
+          <ScalarProperty Name="SendEmail_number" ColumnName="SendEmail_number" />
+          <ScalarProperty Name="LastSendTime_Message" ColumnName="LastSendTime_Message" />
+          <ScalarProperty Name="GoldRemark" ColumnName="GoldRemark" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DLY_Admin">
+      <EntityTypeMapping TypeName="Sucool_DBModel.DLY_Admin">
+        <MappingFragment StoreEntitySet="DLY_Admin">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Dly_UName" ColumnName="Dly_UName" />
+          <ScalarProperty Name="Dly_UpassWord" ColumnName="Dly_UpassWord" />
+          <ScalarProperty Name="Dly_Parent" ColumnName="Dly_Parent" />
+          <ScalarProperty Name="Dly_LastLoginIP" ColumnName="Dly_LastLoginIP" />
+          <ScalarProperty Name="Dly_LastLoginTime" ColumnName="Dly_LastLoginTime" />
+          <ScalarProperty Name="Dly_Status" ColumnName="Dly_Status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Dly_CellsMenu">
+      <EntityTypeMapping TypeName="Sucool_DBModel.Dly_CellsMenu">
+        <MappingFragment StoreEntitySet="Dly_CellsMenu">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Path" ColumnName="Path" />
+          <ScalarProperty Name="Parent_Id" ColumnName="Parent_Id" />
+          <ScalarProperty Name="Top_Id" ColumnName="Top_Id" />
+          <ScalarProperty Name="Depth" ColumnName="Depth" />
+          <ScalarProperty Name="Sort" ColumnName="Sort" />
+          <ScalarProperty Name="Dly_Status" ColumnName="Dly_Status" />
+          <ScalarProperty Name="paraString" ColumnName="paraString" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DLy_Limits">
+      <EntityTypeMapping TypeName="Sucool_DBModel.DLy_Limits">
+        <MappingFragment StoreEntitySet="DLy_Limits">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="adminid" ColumnName="adminid" />
+          <ScalarProperty Name="CellId" ColumnName="CellId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Edm">
+      <EntityTypeMapping TypeName="Sucool_DBModel.Edm">
+        <MappingFragment StoreEntitySet="Edm">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="UB_Id" ColumnName="UB_Id" />
+          <ScalarProperty Name="IsMailAct" ColumnName="IsMailAct" />
+          <ScalarProperty Name="IsMailSub" ColumnName="IsMailSub" />
+          <ScalarProperty Name="U_Type" ColumnName="U_Type" />
+          <ScalarProperty Name="IsSend" ColumnName="IsSend" />
+          <ScalarProperty Name="IsSendGoldBook" ColumnName="IsSendGoldBook" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EdmImportData">
+      <EntityTypeMapping TypeName="Sucool_DBModel.EdmImportData">
+        <MappingFragment StoreEntitySet="EdmImportData">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="mail" ColumnName="mail" />
+          <ScalarProperty Name="issend" ColumnName="issend" />
+          <ScalarProperty Name="isact" ColumnName="isact" />
+          <ScalarProperty Name="groupId" ColumnName="groupId" />
+          <ScalarProperty Name="groupName" ColumnName="groupName" />
+          <ScalarProperty Name="isSendGB" ColumnName="isSendGB" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EmailBook">
+      <EntityTypeMapping TypeName="Sucool_DBModel.EmailBook">
+        <MappingFragment StoreEntitySet="EmailBook">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="userId" ColumnName="userId" />
+          <ScalarProperty Name="bookemail" ColumnName="bookemail" />
+          <ScalarProperty Name="proid" ColumnName="proid" />
+          <ScalarProperty Name="booktype" ColumnName="booktype" />
+          <ScalarProperty Name="booktime" ColumnName="booktime" />
+          <ScalarProperty Name="sendstatus" ColumnName="sendstatus" />
+          <ScalarProperty Name="pricedown" ColumnName="pricedown" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Enterprise">
+      <EntityTypeMapping TypeName="Sucool_DBModel.Enterprise">
+        <MappingFragment StoreEntitySet="Enterprise">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="EnterpriseName" ColumnName="EnterpriseName" />
+          <ScalarProperty Name="Location" ColumnName="Location" />
+          <ScalarProperty Name="Telephone" ColumnName="Telephone" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="IndustryId" ColumnName="IndustryId" />
+          <ScalarProperty Name="Contacts" ColumnName="Contacts" />
+          <ScalarProperty Name="Fax" ColumnName="Fax" />
+          <ScalarProperty Name="Cover" ColumnName="Cover" />
+          <ScalarProperty Name="ZipCode" ColumnName="ZipCode" />
+          <ScalarProperty Name="SiteURL" ColumnName="SiteURL" />
+          <ScalarProperty Name="Introduction" ColumnName="Introduction" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="EnterpriseName_EN" ColumnName="EnterpriseName_EN" />
+          <ScalarProperty Name="Contacts_EN" ColumnName="Contacts_EN" />
+          <ScalarProperty Name="Introduction_EN" ColumnName="Introduction_EN" />
+          <ScalarProperty Name="Address_EN" ColumnName="Address_EN" />
+          <ScalarProperty Name="EnterpriseType" ColumnName="EnterpriseType" />
+          <ScalarProperty Name="EnterpriseType_EN" ColumnName="EnterpriseType_EN" />
+          <ScalarProperty Name="MainProducts" ColumnName="MainProducts" />
+          <ScalarProperty Name="MainProducts_EN" ColumnName="MainProducts_EN" />
+          <ScalarProperty Name="MainSales" ColumnName="MainSales" />
+          <ScalarProperty Name="MainSales_EN" ColumnName="MainSales_EN" />
+          <ScalarProperty Name="EmployeeCounts" ColumnName="EmployeeCounts" />
+          <ScalarProperty Name="EmployeeCounts_EN" ColumnName="EmployeeCounts_EN" />
+          <ScalarProperty Name="AnnualTurnover" ColumnName="AnnualTurnover" />
+          <ScalarProperty Name="AnnualTurnover_EN" ColumnName="AnnualTurnover_EN" />
+          <ScalarProperty Name="Registeredcapital" ColumnName="Registeredcapital" />
+          <ScalarProperty Name="Area" ColumnName="Area" />
+          <ScalarProperty Name="ManagementSystemcertification" ColumnName="ManagementSystemcertification" />
+          <ScalarProperty Name="ManagementSystemcertification_EN" ColumnName="ManagementSystemcertification_EN" />
+          <ScalarProperty Name="ProductService" ColumnName="ProductService" />
+          <ScalarProperty Name="ProductService_EN" ColumnName="ProductService_EN" />
+          <ScalarProperty Name="EnpriseRemark" ColumnName="EnpriseRemark" />
+          <ScalarProperty Name="EnpriseRemark_EN" ColumnName="EnpriseRemark_EN" />
+          <ScalarProperty Name="BusinessLicenseNumber" ColumnName="BusinessLicenseNumber" />
+          <ScalarProperty Name="LegalRepresentative" ColumnName="LegalRepresentative" />
+          <ScalarProperty Name="LegalRepresentative_EN" ColumnName="LegalRepresentative_EN" />
+          <ScalarProperty Name="OperationTerm" ColumnName="OperationTerm" />
+          <ScalarProperty Name="BusinessModel" ColumnName="BusinessModel" />
+          <ScalarProperty Name="BusinessModel_EN" ColumnName="BusinessModel_EN" />
+          <ScalarProperty Name="CustomProcessing" ColumnName="CustomProcessing" />
+          <ScalarProperty Name="ProcessingMethods" ColumnName="ProcessingMethods" />
+          <ScalarProperty Name="ProcessingMethods_EN" ColumnName="ProcessingMethods_EN" />
+          <ScalarProperty Name="Imports" ColumnName="Imports" />
+          <ScalarProperty Name="Exports" ColumnName="Exports" />
+          <ScalarProperty Name="PaidCapital" ColumnName="PaidCapital" />
+          <ScalarProperty Name="BusinessRegisteredAddress" ColumnName="BusinessRegisteredAddress" />
+          <ScalarProperty Name="BusinessRegisteredAddress_EN" ColumnName="BusinessRegisteredAddress_EN" />
+          <ScalarProperty Name="DateOfEstablishment" ColumnName="DateOfEstablishment" />
+          <ScalarProperty Name="Business" ColumnName="Business" />
+          <ScalarProperty Name="Business_EN" ColumnName="Business_EN" />
+          <ScalarProperty Name="BusinessPictureAddress" ColumnName="BusinessPictureAddress" />
+          <ScalarProperty Name="EnterpriseLogo" ColumnName="EnterpriseLogo" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="QualityControl" ColumnName="QualityControl" />
+          <ScalarProperty Name="QualityControl_EN" ColumnName="QualityControl_EN" />
+          <ScalarProperty Name="SubmitExamineStatus" ColumnName="SubmitExamineStatus" />
+          <ScalarProperty Name="UpdateExamineStatus" ColumnName="UpdateExamineStatus" />
+          <ScalarProperty Name="Nickname" ColumnName="Nickname" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="Cdate" ColumnName="Cdate" />
+          <ScalarProperty Name="Lastlogintime" ColumnName="Lastlogintime" />
+          <ScalarProperty Name="Loginip" ColumnName="Loginip" />
+          <ScalarProperty Name="Ad_ImgPath" ColumnName="Ad_ImgPath" />
+          <ScalarProperty Name="Ad_LogoPath" ColumnName="Ad_LogoPath" />
+          <ScalarProperty Name="Ad_Intr" ColumnName="Ad_Intr" />
+          <ScalarProperty Name="MerchantType" ColumnName="MerchantType" />
+          <ScalarProperty Name="BankNumber" ColumnName="BankNumber" />
+          <ScalarProperty Name="AccountHolders" ColumnName="AccountHolders" />
+          <ScalarProperty Name="Bank" ColumnName="Bank" />
+          <ScalarProperty Name="VerifyPhone" ColumnName="VerifyPhone" />
+          <ScalarProperty Name="GoodNess" ColumnName="GoodNess" />
+          <ScalarProperty Name="Remind" ColumnName="Remind" />
+          <ScalarProperty Name="MoreIntro" ColumnName="MoreIntro" />
+          <ScalarProperty Name="QQA" ColumnName="QQA" />
+          <ScalarProperty Name="QQB" ColumnName="QQB" />
+          <ScalarProperty Name="TelephoneA" ColumnName="TelephoneA" />
+          <ScalarProperty Name="TelephoneB" ColumnName="TelephoneB" />
+          <ScalarProperty Name="MobilePhone" ColumnName="MobilePhone" />
+          <ScalarProperty Name="ServiceTime" ColumnName="ServiceTime" />
+          <ScalarProperty Name="QQAName" ColumnName="QQAName" />
+          <ScalarProperty Name="QQBName" ColumnName="QQBName" />
+          <ScalarProperty Name="ReadBeforeBuy" ColumnName="ReadBeforeBuy" />
+          <ScalarProperty Name="bindingMPhone" ColumnName="bindingMPhone" />
+          <ScalarProperty Name="IsAllowSendMsg" ColumnName="IsAllowSendMsg" />
+          <ScalarProperty Name="SMSTemplate" ColumnName="SMSTemplate" />
+          <ScalarProperty Name="Domain" ColumnName="Domain" />
+          <ScalarProperty Name="BMPhoneTime" ColumnName="BMPhoneTime" />
+          <ScalarProperty Name="HeadTitle" ColumnName="HeadTitle" />
+          <ScalarProperty Name="VipBeginTime" ColumnName="VipBeginTime" />
+          <ScalarProperty Name="VipEndTime" ColumnName="VipEndTime" />
+          <ScalarProperty Name="ShowOrderPhone" ColumnName="ShowOrderPhone" />
+          <ScalarProperty Name="CommonShippingLine" ColumnName="CommonShippingLine" />
+          <ScalarProperty Name="ShunFengShippingLine" ColumnName="ShunFengShippingLine" />
+          <ScalarProperty Name="SendAddressId" ColumnName="SendAddressId" />
+          <ScalarProperty Name="SettleMethod" ColumnName="SettleMethod" />
+          <ScalarProperty Name="CommonExpressGrantsPrice_ChengDu" ColumnName="CommonExpressGrantsPrice_ChengDu" />
+          <ScalarProperty Name="CommonExpressGrantsPrice_SiChuan" ColumnName="CommonExpressGrantsPrice_SiChuan" />
+          <ScalarProperty Name="CommonExpressGrantsPrice_LN_JL_HLJ" ColumnName="CommonExpressGrantsPrice_LN_JL_HLJ" />
+          <ScalarProperty Name="CommonExpressGrantsPrice_XJ_XZ" ColumnName="CommonExpressGrantsPrice_XJ_XZ" />
+          <ScalarProperty Name="CommonExpressGrantsPrice_Other" ColumnName="CommonExpressGrantsPrice_Other" />
+          <ScalarProperty Name="ShunFengExpressGrantsPrice_Urgent" ColumnName="ShunFengExpressGrantsPrice_Urgent" />
+          <ScalarProperty Name="MerchantEmail" ColumnName="MerchantEmail" />
+          <ScalarProperty Name="MerchantContacts" ColumnName="MerchantContacts" />
+          <ScalarProperty Name="MerchantAddress" ColumnName="MerchantAddress" />
+          <ScalarProperty Name="ShunFengExpressGrantsPrice_NoUrgent" ColumnName="ShunFengExpressGrantsPrice_NoUrgent" />
+          <ScalarProperty Name="ShunFengExpressGrantsPrice_NoUrgent_Other" ColumnName="ShunFengExpressGrantsPrice_NoUrgent_Other" />
+          <ScalarProperty Name="ShunFengExpressGrantsPrice_Urgent_Other" ColumnName="ShunFengExpressGrantsPrice_Urgent_Other" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EnterpriseRecommend">
+      <EntityTypeMapping TypeName="Sucool_DBModel.EnterpriseRecommend">
+        <MappingFragment StoreEntitySet="EnterpriseRecommend">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="EnterpriseName" ColumnName="EnterpriseName" />
+          <ScalarProperty Name="AnnualTurnover" ColumnName="AnnualTurnover" />
+          <ScalarProperty Name="MainProducts" ColumnName="MainProducts" />
+          <ScalarProperty Name="EnterpriseAddress" ColumnName="EnterpriseAddress" />
+          <ScalarProperty Name="Sort" ColumnName="Sort" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="EnterpriseName_EN" ColumnName="EnterpriseName_EN" />
+          <ScalarProperty Name="MainProducts_EN" ColumnName="MainProducts_EN" />
+          <ScalarProperty Name="EnterpriseAddress_EN" ColumnName="EnterpriseAddress_EN" />
+          <ScalarProperty Name="UrlLink" ColumnName="UrlLink" />
+          <ScalarProperty Name="AnnualTurnover_EN" ColumnName="AnnualTurnover_EN" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ErrorStatus">
+      <EntityTypeMapping TypeName="Sucool_DBModel.ErrorStatus">
+        <MappingFragment StoreEntitySet="ErrorStatus">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ErrorMesage" ColumnName="ErrorMesage" />
+          <ScalarProperty Name="ErrorPath" ColumnName="ErrorPath" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EventRemind">
+      <EntityTypeMapping TypeName="Sucool_DBModel.EventRemind">
+        <MappingFragment StoreEntitySet="EventRemind">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="RemindWay" ColumnName="RemindWay" />
+          <ScalarProperty Name="EventId" ColumnName="EventId" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="RemindType" ColumnName="RemindType" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Events_Data">
+      <EntityTypeMapping TypeName="Sucool_DBModel.Events_Data">
+        <MappingFragment StoreEntitySet="Events_Data">
+          <ScalarProperty Name="EventsId" ColumnName="EventsId" />
+          <ScalarProperty Name="EventsStartTime" ColumnName="EventsStartTime" />
+          <ScalarProperty Name="EventsEndTime" ColumnName="EventsEndTime" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="ShowBill" ColumnName="ShowBill" />
+          <ScalarProperty Name="IsShowProductList" ColumnName="IsShowProductList" />
+          <ScalarProperty Name="IsShowHotEvents" ColumnName="IsShowHotEvents" />
+          <ScalarProperty Name="EventsName" ColumnName="EventsName" />
+          <ScalarProperty Name="EventsCover" ColumnName="EventsCover" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EventsProducts">
+      <EntityTypeMapping TypeName="Sucool_DBModel.EventsProducts">
+        <MappingFragment StoreEntitySet="EventsProducts">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ProId" ColumnName="ProId" />
+          <ScalarProperty Name="EventsId" ColumnName="EventsId" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="EventsType" ColumnName="EventsType" />
+          <ScalarProperty Name="EventsChange" ColumnName="EventsChange" />
+          <ScalarProperty Name="EventsRemark" ColumnName="EventsRemark" />
+          <ScalarProperty Name="SKUZoneId" ColumnName="SKUZoneId" />
+          <ScalarProperty Name="ProName" ColumnName="ProName" />
+          <ScalarProperty Name="ProCover" ColumnName="ProCover" />
+          <ScalarProperty Name="BrandName" ColumnName="BrandName" />
+          <ScalarProperty Name="BrandId" ColumnName="BrandId" />
+          <ScalarProperty Name="ColorId" ColumnName="ColorId" />
+          <ScalarProperty Name="SizeId" ColumnName="SizeId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FailLog">
+      <EntityTypeMapping TypeName="Sucool_DBModel.FailLog">
+        <MappingFragment StoreEntitySet="FailLog">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="LogInfo" ColumnName="LogInfo" />
+          <ScalarProperty Name="ToId" ColumnName="ToId" />
+          <ScalarProperty Name="DateTime" ColumnName="DateTime" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="F_Id" ColumnName="F_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FAQ">
+      <EntityTypeMapping TypeName="Sucool_DBModel.FAQ">
+        <MappingFragment StoreEntitySet="FAQ">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Lssue" ColumnName="Lssue" />
+          <ScalarProperty Name="Lssue_EN" ColumnName="Lssue_EN" />
+          <ScalarProperty Name="Anwser" ColumnName="Anwser" />
+          <ScalarProperty Name="Anwser_EN" ColumnName="Anwser_EN" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Favorites">
+      <EntityTypeMapping TypeName="Sucool_DBModel.Favorites">
+        <MappingFragment StoreEntitySet="Favorites">
+          <ScalarProperty Name="F_Id" ColumnName="F_Id" />
+          <ScalarProperty Name="F_ObjectId" ColumnName="F_ObjectId" />
+          <ScalarProperty Name="F_UserId" ColumnName="F_UserId" />
+          <ScalarProperty Name="F_Time" ColumnName="F_Time" />
+          <ScalarProperty Name="F_Status" ColumnName="F_Status" />
+          <ScalarProperty Name="F_ClientType" ColumnName="F_ClientType" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Feedback">
+      <EntityTypeMapping TypeName="Sucool_DBModel.Feedback">
+        <MappingFragment StoreEntitySet="Feedback">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Content" ColumnName="Content" />
+          <ScalarProperty Name="BackTime" ColumnName="BackTime" />
+          <ScalarProperty Name="SubTime" ColumnName="SubTime" />
+          <ScalarProperty Name="SubType" ColumnName="SubType" />
+          <ScalarProperty Name="FeedBackType" ColumnName="FeedBackType" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FreightTemplate">
+      <EntityTypeMapping TypeName="Sucool_DBModel.FreightTemplate">
+        <MappingFragment StoreEntitySet="FreightTemplate">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="MerId" ColumnName="MerId" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="IsFreeShipping" ColumnName="IsFreeShipping" />
+          <ScalarProperty Name="Pricing" ColumnName="Pricing" />
+          <ScalarProperty Name="AddTime" ColumnName="AddTime" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FreightValAlg">
+      <EntityTypeMapping TypeName="Sucool_DBModel.FreightValAlg">
+        <MappingFragment StoreEntitySet="FreightValAlg">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="FTId" ColumnName="FTId" />
+          <ScalarProperty Name="Delivery" ColumnName="Delivery" />
+          <ScalarProperty Name="IsDefault" ColumnName="IsDefault" />
+          <ScalarProperty Name="CityId" ColumnName="CityId" />
+          <ScalarProperty Name="InitialDose" ColumnName="InitialDose" />
+          <ScalarProperty Name="StartingPrice" ColumnName="StartingPrice" />
+          <ScalarProperty Name="Increment" ColumnName="Increment" />
+          <ScalarProperty Name="IncrementatPrice" ColumnName="IncrementatPrice" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="DistrictId" ColumnName="DistrictId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FriendLinks">
+      <EntityTypeMapping TypeName="Sucool_DBModel.FriendLinks">
+        <MappingFragment StoreEntitySet="FriendLinks">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="linkname" ColumnName="linkname" />
+          <ScalarProperty Name="linkurl" ColumnName="linkurl" />
+          <ScalarProperty Name="sort" ColumnName="sort" />
+          <ScalarProperty Name="status" ColumnName="status" />
+          <ScalarProperty Name="prval" ColumnName="prval" />
+          <ScalarProperty Name="ipval" ColumnName="ipval" />
+          <ScalarProperty Name="logo" ColumnName="logo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GoldBook">
+      <EntityTypeMapping TypeName="Sucool_DBModel.GoldBook">
+        <MappingFragment StoreEntitySet="GoldBook">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="StartTime" ColumnName="StartTime" />
+          <ScalarProperty Name="EndTime" ColumnName="EndTime" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="Money" ColumnName="Money" />
+          <ScalarProperty Name="GroupId" ColumnName="GroupId" />
+          <ScalarProperty Name="UsedId" ColumnName="UsedId" />
+          <ScalarProperty Name="UsedOrder" ColumnName="UsedOrder" />
+          <ScalarProperty Name="UsedTime" ColumnName="UsedTime" />
+          <ScalarProperty Name="UsedIP" ColumnName="UsedIP" />
+          <ScalarProperty Name="AddTime" ColumnName="AddTime" />
+          <ScalarProperty Name="LimitOrder" ColumnName="LimitOrder" />
+          <ScalarProperty Name="LimitMoney" ColumnName="LimitMoney" />
+          <ScalarProperty Name="LimitStyle" ColumnName="LimitStyle" />
+          <ScalarProperty Name="LimitRemark" ColumnName="LimitRemark" />
+          <ScalarProperty Name="IsReverse" ColumnName="IsReverse" />
+          <ScalarProperty Name="IsMixed" ColumnName="IsMixed" />
+          <ScalarProperty Name="GoldRemark" ColumnName="GoldRemark" />
+          <ScalarProperty Name="SendUserId" ColumnName="SendUserId" />
+          <ScalarProperty Name="ActivateTime" ColumnName="ActivateTime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GoldLimit">
+      <EntityTypeMapping TypeName="Sucool_DBModel.GoldLimit">
+        <MappingFragment StoreEntitySet="GoldLimit">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Limit_Sid" ColumnName="Limit_Sid" />
+          <ScalarProperty Name="Limit_Bid" ColumnName="Limit_Bid" />
+          <ScalarProperty Name="Limit_Pid" ColumnName="Limit_Pid" />
+          <ScalarProperty Name="GoldId" ColumnName="GoldId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HelpCenter">
+      <EntityTypeMapping TypeName="Sucool_DBModel.HelpCenter">
+        <MappingFragment StoreEntitySet="HelpCenter">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="title" ColumnName="title" />
+          <ScalarProperty Name="parents" ColumnName="parents" />
+          <ScalarProperty Name="depth" ColumnName="depth" />
+          <ScalarProperty Name="sort" ColumnName="sort" />
+          <ScalarProperty Name="status" ColumnName="status" />
+          <ScalarProperty Name="url" ColumnName="url" />
+          <ScalarProperty Name="contents" ColumnName="contents" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HelpSite">
+      <EntityTypeMapping TypeName="Sucool_DBModel.HelpSite">
+        <MappingFragment StoreEntitySet="HelpSite">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="title" ColumnName="title" />
+          <ScalarProperty Name="contents" ColumnName="contents" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HotSearch">
+      <EntityTypeMapping TypeName="Sucool_DBModel.HotSearch">
+        <MappingFragment StoreEntitySet="HotSearch">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="KeyWord" ColumnName="KeyWord" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="RTime" ColumnName="RTime" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="ProjectType" ColumnName="ProjectType" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Industry">
+      <EntityTypeMapping TypeName="Sucool_DBModel.Industry">
+        <MappingFragment StoreEntitySet="Industry">
+          <ScalarProperty Name="IndustryId" ColumnName="IndustryId" />
+          <ScalarProperty Name="IndustryName" ColumnName="IndustryName" />
+          <ScalarProperty Name="IndustryName_EN" ColumnName="IndustryName_EN" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="InstallLog">
+      <EntityTypeMapping TypeName="Sucool_DBModel.InstallLog">
+        <MappingFragment StoreEntitySet="InstallLog">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="ip" ColumnName="ip" />
+          <ScalarProperty Name="addtime" ColumnName="addtime" />
+          <ScalarProperty Name="client" ColumnName="client" />
+          <ScalarProperty Name="version" ColumnName="version" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Integral_Details">
+      <EntityTypeMapping TypeName="Sucool_DBModel.Integral_Details">
+        <MappingFragment StoreEntitySet="Integral_Details">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="Point" ColumnName="Point" />
+          <ScalarProperty Name="OrderNumber" ColumnName="OrderNumber" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="DateTime" ColumnName="DateTime" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="ComeFrom" ColumnName="ComeFrom" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="InvitationUser">
+      <EntityTypeMapping TypeName="Sucool_DBModel.InvitationUser">
+        <MappingFragment StoreEntitySet="InvitationUser">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="InvitationParentUid" ColumnName="InvitationParentUid" />
+          <ScalarProperty Name="InvitationToUid" ColumnName="InvitationToUid" />
+          <ScalarProperty Name="InvitationTime" ColumnName="InvitationTime" />
+          <ScalarProperty Name="IsFirstBuying" ColumnName="IsFirstBuying" />
+          <ScalarProperty Name="CashbackInfo" ColumnName="CashbackInfo" />
+          <ScalarProperty Name="InvitationCode" ColumnName="InvitationCode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LogisticsCompany">
+      <EntityTypeMapping TypeName="Sucool_DBModel.LogisticsCompany">
+        <MappingFragment StoreEntitySet="LogisticsCompany">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="CompanyName" ColumnName="CompanyName" />
+          <ScalarProperty Name="CompanyNameCode" ColumnName="CompanyNameCode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Merchant_CellsMenu">
+      <EntityTypeMapping TypeName="Sucool_DBModel.Merchant_CellsMenu">
+        <MappingFragment StoreEntitySet="Merchant_CellsMenu">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Path" ColumnName="Path" />
+          <ScalarProperty Name="Parent_Id" ColumnName="Parent_Id" />
+          <ScalarProperty Name="Top_Id" ColumnName="Top_Id" />
+          <ScalarProperty Name="Depth" ColumnName="Depth" />
+          <ScalarProperty Name="Sort" ColumnName="Sort" />
+          <ScalarProperty Name="Mer_Status" ColumnName="Mer_Status" />
+          <ScalarProperty Name="ParaString" ColumnName="ParaString" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Merchant_Group">
+      <EntityTypeMapping TypeName="Sucool_DBModel.Merchant_Group">
+        <MappingFragment StoreEntitySet="Merchant_Group">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="AddTime" ColumnName="AddTime" />
+          <ScalarProperty Name="UpdateTime" ColumnName="UpdateTime" />
+          <ScalarProperty Name="Pur_Runtime" ColumnName="Pur_Runtime" />
+          <ScalarProperty Name="Pur_Price" ColumnName="Pur_Price" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Merchant_Group_Limits">
+      <EntityTypeMapping TypeName="Sucool_DBModel.Merchant_Group_Limits">
+        <MappingFragment StoreEntitySet="Merchant_Group_Limits">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="GroupId" ColumnName="GroupId" />
+          <ScalarProperty Name="CellId" ColumnName="CellId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Merchant_GroupOrder">
+      <EntityTypeMapping TypeName="Sucool_DBModel.Merchant_GroupOrder">
+        <MappingFragment StoreEntitySet="Merchant_GroupOrder">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Ordernumber" ColumnName="Ordernumber" />
+          <ScalarProperty Name="GroupId" ColumnName="GroupId" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="Count" ColumnName="Count" />
+          <ScalarProperty Name="MerId" ColumnName="MerId" />
+          <ScalarProperty Name="SubOrderTime" ColumnName="SubOrderTime" />
+          <ScalarProperty Name="PayTime" ColumnName="PayTime" />
+          <ScalarProperty Name="PayMoney" ColumnName="PayMoney" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MerchartChild">
+      <EntityTypeMapping TypeName="Sucool_DBModel.MerchartChild">
+        <MappingFragment StoreEntitySet="MerchartChild">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="UserPwd" ColumnName="UserPwd" />
+          <ScalarProperty Name="Statue" ColumnName="Statue" />
+          <ScalarProperty Name="ParentId" ColumnName="ParentId" />
+          <ScalarProperty Name="ParentName" ColumnName="ParentName" />
+          <ScalarProperty Name="Limits" ColumnName="Limits" />
+          <ScalarProperty Name="LastLoginTime" ColumnName="LastLoginTime" />
+          <ScalarProperty Name="LastLoginIp" ColumnName="LastLoginIp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Message">
+      <EntityTypeMapping TypeName="Sucool_DBModel.Message">
+        <MappingFragment StoreEntitySet="Message">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ProductId" ColumnName="ProductId" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="MessageTime" ColumnName="MessageTime" />
+          <ScalarProperty Name="Content" ColumnName="Content" />
+          <ScalarProperty Name="Reply" ColumnName="Reply" />
+          <ScalarProperty Name="ReplyTime" ColumnName="ReplyTime" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="EnterpriseUserId" ColumnName="EnterpriseUserId" />
+          <ScalarProperty Name="IsRead" ColumnName="IsRead" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Offer">
+      <EntityTypeMapping TypeName="Sucool_DBModel.Offer">
+        <MappingFragment StoreEntitySet="Offer">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Title_EN" ColumnName="Title_EN" />
+          <ScalarProperty Name="IndustryId" ColumnName="IndustryId" />
+          <ScalarProperty Name="EnterpriseId" ColumnName="EnterpriseId" />
+          <ScalarProperty Name="ProductName" ColumnName="ProductName" />
+          <ScalarProperty Name="ProductName_EN" ColumnName="ProductName_EN" />
+          <ScalarProperty Name="ProductCount" ColumnName="ProductCount" />
+          <ScalarProperty Name="Count_MeasurementUnit" ColumnName="Count_MeasurementUnit" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="Price_Unit" ColumnName="Price_Unit" />
+          <ScalarProperty Name="Price_MeasurementUnit" ColumnName="Price_MeasurementUnit" />
+          <ScalarProperty Name="Content" ColumnName="Content" />
+          <ScalarProperty Name="Content_EN" ColumnName="Content_EN" />
+          <ScalarProperty Name="AttachmentName" ColumnName="AttachmentName" />
+          <ScalarProperty Name="AttachmentUrl" ColumnName="AttachmentUrl" />
+          <ScalarProperty Name="ExpirationTime" ColumnName="ExpirationTime" />
+          <ScalarProperty Name="Terms" ColumnName="Terms" />
+          <ScalarProperty Name="Terms_EN" ColumnName="Terms_EN" />
+          <ScalarProperty Name="Port" ColumnName="Port" />
+          <ScalarProperty Name="Port_EN" ColumnName="Port_EN" />
+          <ScalarProperty Name="TermsOfShipment" ColumnName="TermsOfShipment" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="OfferType" ColumnName="OfferType" />
+          <ScalarProperty Name="AddOfferTime" ColumnName="AddOfferTime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Order_RealPro_Info">
+      <EntityTypeMapping TypeName="Sucool_DBModel.Order_RealPro_Info">
+        <MappingFragment StoreEntitySet="Order_RealPro_Info">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="OrderId" ColumnName="OrderId" />
+          <ScalarProperty Name="PriceId" ColumnName="PriceId" />
+          <ScalarProperty Name="Userid" ColumnName="Userid" />
+          <ScalarProperty Name="Pstate" ColumnName="Pstate" />
+          <ScalarProperty Name="Pcount" ColumnName="Pcount" />
+          <ScalarProperty Name="Add_time" ColumnName="Add_time" />
+          <ScalarProperty Name="Commodity_Cover" ColumnName="Commodity_Cover" />
+          <ScalarProperty Name="ProductId" ColumnName="ProductId" />
+          <ScalarProperty Name="ColorId" ColumnName="ColorId" />
+          <ScalarProperty Name="SizeId" ColumnName="SizeId" />
+          <ScalarProperty Name="CartGuid" ColumnName="CartGuid" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="Price_N" ColumnName="Price_N" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OrderAddress">
+      <EntityTypeMapping TypeName="Sucool_DBModel.OrderAddress">
+        <MappingFragment StoreEntitySet="OrderAddress">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="Privnce" ColumnName="Privnce" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="County" ColumnName="County" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Mobile" ColumnName="Mobile" />
+          <ScalarProperty Name="Receive" ColumnName="Receive" />
+          <ScalarProperty Name="Up_time" ColumnName="Up_time" />
+          <ScalarProperty Name="ZipCode" ColumnName="ZipCode" />
+          <ScalarProperty Name="IsDefault" ColumnName="IsDefault" />
+          <ScalarProperty Name="AddressName" ColumnName="AddressName" />
+          <ScalarProperty Name="AddressType" ColumnName="AddressType" />
+          <ScalarProperty Name="Coordinate" ColumnName="Coordinate" />
+          <ScalarProperty Name="IsPayAfterReceive" ColumnName="IsPayAfterReceive" />
+          <ScalarProperty Name="IsSendBeforeTelConfirm" ColumnName="IsSendBeforeTelConfirm" />
+          <ScalarProperty Name="ReceiveTimeType" ColumnName="ReceiveTimeType" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Orderinfo">
+      <EntityTypeMapping TypeName="Sucool_DBModel.Orderinfo">
+        <MappingFragment StoreEntitySet="Orderinfo">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Orernumber" ColumnName="Orernumber" />
+          <ScalarProperty Name="Addressid" ColumnName="Addressid" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="Pay_money" ColumnName="Pay_money" />
+          <ScalarProperty Name="PaymentMoney" ColumnName="PaymentMoney" />
+          <ScalarProperty Name="Pay_Over" ColumnName="Pay_Over" />
+          <ScalarProperty Name="Pay_Method" ColumnName="Pay_Method" />
+          <ScalarProperty Name="Receive_method" ColumnName="Receive_method" />
+          <ScalarProperty Name="Pay_status" ColumnName="Pay_status" />
+          <ScalarProperty Name="Order_time" ColumnName="Order_time" />
+          <ScalarProperty Name="Pay_time" ColumnName="Pay_time" />
+          <ScalarProperty Name="Receive" ColumnName="Receive" />
+          <ScalarProperty Name="TeleNumber" ColumnName="TeleNumber" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Pricing" ColumnName="Pricing" />
+          <ScalarProperty Name="InterFlowCompany" ColumnName="InterFlowCompany" />
+          <ScalarProperty Name="SendNumber" ColumnName="SendNumber" />
+          <ScalarProperty Name="SendTime" ColumnName="SendTime" />
+          <ScalarProperty Name="LeaveMessage" ColumnName="LeaveMessage" />
+          <ScalarProperty Name="ParentOrderNumber" ColumnName="ParentOrderNumber" />
+          <ScalarProperty Name="MerId" ColumnName="MerId" />
+          <ScalarProperty Name="LogisticsPinyin" ColumnName="LogisticsPinyin" />
+          <ScalarProperty Name="OrderType" ColumnName="OrderType" />
+          <ScalarProperty Name="Confirm_time" ColumnName="Confirm_time" />
+          <ScalarProperty Name="AutoConfirm_time" ColumnName="AutoConfirm_time" />
+          <ScalarProperty Name="PricesOrdiscounts" ColumnName="PricesOrdiscounts" />
+          <ScalarProperty Name="SendPrice" ColumnName="SendPrice" />
+          <ScalarProperty Name="UserSendType" ColumnName="UserSendType" />
+          <ScalarProperty Name="PaymentMode" ColumnName="PaymentMode" />
+          <ScalarProperty Name="IsPayAfterReceive" ColumnName="IsPayAfterReceive" />
+          <ScalarProperty Name="IsSendBeforeTelConfirm" ColumnName="IsSendBeforeTelConfirm" />
+          <ScalarProperty Name="FirstShareId" ColumnName="FirstShareId" />
+          <ScalarProperty Name="Integral" ColumnName="Integral" />
+          <ScalarProperty Name="Integral_Money" ColumnName="Integral_Money" />
+          <ScalarProperty Name="IsTakeSelf" ColumnName="IsTakeSelf" />
+          <ScalarProperty Name="InvoiceTitle" ColumnName="InvoiceTitle" />
+          <ScalarProperty Name="InvoiceContentsType" ColumnName="InvoiceContentsType" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="IsSendUrgent" ColumnName="IsSendUrgent" />
+          <ScalarProperty Name="IsSplitOrder" ColumnName="IsSplitOrder" />
+          <ScalarProperty Name="SplitSatus" ColumnName="SplitSatus" />
+          <ScalarProperty Name="SendUrgentMoney" ColumnName="SendUrgentMoney" />
+          <ScalarProperty Name="AddressCityId" ColumnName="AddressCityId" />
+          <ScalarProperty Name="SettledType" ColumnName="SettledType" />
+          <ScalarProperty Name="SettledGrantMoney" ColumnName="SettledGrantMoney" />
+          <ScalarProperty Name="SettledTime" ColumnName="SettledTime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OrderPayMoneyRemind">
+      <EntityTypeMapping TypeName="Sucool_DBModel.OrderPayMoneyRemind">
+        <MappingFragment StoreEntitySet="OrderPayMoneyRemind">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="O_Id" ColumnName="O_Id" />
+          <ScalarProperty Name="U_Id" ColumnName="U_Id" />
+          <ScalarProperty Name="Order_time" ColumnName="Order_time" />
+          <ScalarProperty Name="LastSendTime_phone" ColumnName="LastSendTime_phone" />
+          <ScalarProperty Name="SendPhone_number" ColumnName="SendPhone_number" />
+          <ScalarProperty Name="LastSendTime_email" ColumnName="LastSendTime_email" />
+          <ScalarProperty Name="SendEmail_number" ColumnName="SendEmail_number" />
+          <ScalarProperty Name="LastSendTime_Message" ColumnName="LastSendTime_Message" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OrderProcessMessage">
+      <EntityTypeMapping TypeName="Sucool_DBModel.OrderProcessMessage">
+        <MappingFragment StoreEntitySet="OrderProcessMessage">
+          <ScalarProperty Name="OrderMessageId" ColumnName="OrderMessageId" />
+          <ScalarProperty Name="OrderMessageType" ColumnName="OrderMessageType" />
+          <ScalarProperty Name="OrderMessageStatus" ColumnName="OrderMessageStatus" />
+          <ScalarProperty Name="OrderMessageSubmitTime" ColumnName="OrderMessageSubmitTime" />
+          <ScalarProperty Name="OrderMessageProcessTime" ColumnName="OrderMessageProcessTime" />
+          <ScalarProperty Name="OrderId" ColumnName="OrderId" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="MerId" ColumnName="MerId" />
+          <ScalarProperty Name="AdminId" ColumnName="AdminId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PaymentCard">
+      <EntityTypeMapping TypeName="Sucool_DBModel.PaymentCard">
+        <MappingFragment StoreEntitySet="PaymentCard">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="StartTime" ColumnName="StartTime" />
+          <ScalarProperty Name="EndTime" ColumnName="EndTime" />
+          <ScalarProperty Name="AddTime" ColumnName="AddTime" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="Money" ColumnName="Money" />
+          <ScalarProperty Name="Remark" ColumnName="Remark" />
+          <ScalarProperty Name="GrounpId" ColumnName="GrounpId" />
+          <ScalarProperty Name="UsedId" ColumnName="UsedId" />
+          <ScalarProperty Name="UsedTime" ColumnName="UsedTime" />
+          <ScalarProperty Name="UsedIP" ColumnName="UsedIP" />
+          <ScalarProperty Name="GUseCount" ColumnName="GUseCount" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PerMark">
+      <EntityTypeMapping TypeName="Sucool_DBModel.PerMark">
+        <MappingFragment StoreEntitySet="PerMark">
+          <ScalarProperty Name="M_id" ColumnName="M_id" />
+          <ScalarProperty Name="U_id" ColumnName="U_id" />
+          <ScalarProperty Name="P_id" ColumnName="P_id" />
+          <ScalarProperty Name="P_MarkType" ColumnName="P_MarkType" />
+          <ScalarProperty Name="Fraction" ColumnName="Fraction" />
+          <ScalarProperty Name="CDate" ColumnName="CDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PerPictrues">
+      <EntityTypeMapping TypeName="Sucool_DBModel.PerPictrues">
+        <MappingFragment StoreEntitySet="PerPictrues">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Perid" ColumnName="Perid" />
+          <ScalarProperty Name="Pic_Name" ColumnName="Pic_Name" />
+          <ScalarProperty Name="Pic_Desc" ColumnName="Pic_Desc" />
+          <ScalarProperty Name="Pic_Path" ColumnName="Pic_Path" />
+          <ScalarProperty Name="Pic_Time" ColumnName="Pic_Time" />
+          <ScalarProperty Name="Pic_Status" ColumnName="Pic_Status" />
+          <ScalarProperty Name="Pic_Order" ColumnName="Pic_Order" />
+          <ScalarProperty Name="Category" ColumnName="Category" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PriNum_Data">
+      <EntityTypeMapping TypeName="Sucool_DBModel.PriNum_Data">
+        <MappingFragment StoreEntitySet="PriNum_Data">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ProductId" ColumnName="ProductId" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="Price_N" ColumnName="Price_N" />
+          <ScalarProperty Name="BalancePrice" ColumnName="BalancePrice" />
+          <ScalarProperty Name="Count" ColumnName="Count" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="Remark" ColumnName="Remark" />
+          <ScalarProperty Name="Colour" ColumnName="Colour" />
+          <ScalarProperty Name="ColourId" ColumnName="ColourId" />
+          <ScalarProperty Name="Size" ColumnName="Size" />
+          <ScalarProperty Name="SizeId" ColumnName="SizeId" />
+          <ScalarProperty Name="ColorImg" ColumnName="ColorImg" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProBrowseLog">
+      <EntityTypeMapping TypeName="Sucool_DBModel.ProBrowseLog">
+        <MappingFragment StoreEntitySet="ProBrowseLog">
+          <ScalarProperty Name="Time" ColumnName="Time" />
+          <ScalarProperty Name="Pid" ColumnName="Pid" />
+          <ScalarProperty Name="Bid" ColumnName="Bid" />
+          <ScalarProperty Name="STId" ColumnName="STId" />
+          <ScalarProperty Name="TTid" ColumnName="TTid" />
+          <ScalarProperty Name="FTid" ColumnName="FTid" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProDataBasic">
+      <EntityTypeMapping TypeName="Sucool_DBModel.ProDataBasic">
+        <MappingFragment StoreEntitySet="ProDataBasic">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="T_Name" ColumnName="T_Name" />
+          <ScalarProperty Name="T_TypeDepth1" ColumnName="T_TypeDepth1" />
+          <ScalarProperty Name="T_TypeDepth2" ColumnName="T_TypeDepth2" />
+          <ScalarProperty Name="T_TypeDepth3" ColumnName="T_TypeDepth3" />
+          <ScalarProperty Name="T_Cover" ColumnName="T_Cover" />
+          <ScalarProperty Name="T_Businesses" ColumnName="T_Businesses" />
+          <ScalarProperty Name="T_Details" ColumnName="T_Details" />
+          <ScalarProperty Name="T_SubTitle" ColumnName="T_SubTitle" />
+          <ScalarProperty Name="KeyWords" ColumnName="KeyWords" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="T_Status" ColumnName="T_Status" />
+          <ScalarProperty Name="T_ClickCount" ColumnName="T_ClickCount" />
+          <ScalarProperty Name="T_SellCount" ColumnName="T_SellCount" />
+          <ScalarProperty Name="T_AvgScore" ColumnName="T_AvgScore" />
+          <ScalarProperty Name="AddTime" ColumnName="AddTime" />
+          <ScalarProperty Name="T_Address" ColumnName="T_Address" />
+          <ScalarProperty Name="ProvinceID" ColumnName="ProvinceID" />
+          <ScalarProperty Name="CityID" ColumnName="CityID" />
+          <ScalarProperty Name="DistrictID" ColumnName="DistrictID" />
+          <ScalarProperty Name="FreightTemplateId" ColumnName="FreightTemplateId" />
+          <ScalarProperty Name="ProWeight" ColumnName="ProWeight" />
+          <ScalarProperty Name="ProVolume" ColumnName="ProVolume" />
+          <ScalarProperty Name="SKUZoneId" ColumnName="SKUZoneId" />
+          <ScalarProperty Name="ProductNumber" ColumnName="ProductNumber" />
+          <ScalarProperty Name="WebPageViewTemplate" ColumnName="WebPageViewTemplate" />
+          <ScalarProperty Name="Integral" ColumnName="Integral" />
+          <ScalarProperty Name="shareMsg" ColumnName="shareMsg" />
+          <ScalarProperty Name="BrandId" ColumnName="BrandId" />
+          <ScalarProperty Name="BarCode" ColumnName="BarCode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProducingTraceableDynamic">
+      <EntityTypeMapping TypeName="Sucool_DBModel.ProducingTraceableDynamic">
+        <MappingFragment StoreEntitySet="ProducingTraceableDynamic">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ShopCartId" ColumnName="ShopCartId" />
+          <ScalarProperty Name="ProductId" ColumnName="ProductId" />
+          <ScalarProperty Name="PurchaseSource" ColumnName="PurchaseSource" />
+          <ScalarProperty Name="PurchaseTime" ColumnName="PurchaseTime" />
+          <ScalarProperty Name="ProcessPlace" ColumnName="ProcessPlace" />
+          <ScalarProperty Name="ProcessTime" ColumnName="ProcessTime" />
+          <ScalarProperty Name="CompleteTime" ColumnName="CompleteTime" />
+          <ScalarProperty Name="StoragePlace" ColumnName="StoragePlace" />
+          <ScalarProperty Name="StorageMethod" ColumnName="StorageMethod" />
+          <ScalarProperty Name="EatTime" ColumnName="EatTime" />
+          <ScalarProperty Name="NotEatKeepMethod" ColumnName="NotEatKeepMethod" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Product">
+      <EntityTypeMapping TypeName="Sucool_DBModel.Product">
+        <MappingFragment StoreEntitySet="Product">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="EnterpriseId" ColumnName="EnterpriseId" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Details" ColumnName="Details" />
+          <ScalarProperty Name="Title_EN" ColumnName="Title_EN" />
+          <ScalarProperty Name="Details_EN" ColumnName="Details_EN" />
+          <ScalarProperty Name="ProductCover" ColumnName="ProductCover" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="Introduction" ColumnName="Introduction" />
+          <ScalarProperty Name="Introduction_EN" ColumnName="Introduction_EN" />
+          <ScalarProperty Name="Terms" ColumnName="Terms" />
+          <ScalarProperty Name="Terms_EN" ColumnName="Terms_EN" />
+          <ScalarProperty Name="Port" ColumnName="Port" />
+          <ScalarProperty Name="Port_EN" ColumnName="Port_EN" />
+          <ScalarProperty Name="IsRelease" ColumnName="IsRelease" />
+          <ScalarProperty Name="ProductCover_EN" ColumnName="ProductCover_EN" />
+          <ScalarProperty Name="Fob_SP" ColumnName="Fob_SP" />
+          <ScalarProperty Name="Fob_EP" ColumnName="Fob_EP" />
+          <ScalarProperty Name="Fob_PriceUnit" ColumnName="Fob_PriceUnit" />
+          <ScalarProperty Name="Fob_MeasurementUnit" ColumnName="Fob_MeasurementUnit" />
+          <ScalarProperty Name="Batch" ColumnName="Batch" />
+          <ScalarProperty Name="Batch_MeasurementUnit" ColumnName="Batch_MeasurementUnit" />
+          <ScalarProperty Name="Supply" ColumnName="Supply" />
+          <ScalarProperty Name="Supply_MeasurementUnit" ColumnName="Supply_MeasurementUnit" />
+          <ScalarProperty Name="Supply_DateUnit" ColumnName="Supply_DateUnit" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProductPicture">
+      <EntityTypeMapping TypeName="Sucool_DBModel.ProductPicture">
+        <MappingFragment StoreEntitySet="ProductPicture">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ProductId" ColumnName="ProductId" />
+          <ScalarProperty Name="PicUrlAddress" ColumnName="PicUrlAddress" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProductType">
+      <EntityTypeMapping TypeName="Sucool_DBModel.ProductType">
+        <MappingFragment StoreEntitySet="ProductType">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Pro_Name" ColumnName="Pro_Name" />
+          <ScalarProperty Name="Pro_Parents" ColumnName="Pro_Parents" />
+          <ScalarProperty Name="Type_Order_Id" ColumnName="Type_Order_Id" />
+          <ScalarProperty Name="UrlName" ColumnName="UrlName" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Keywords" ColumnName="Keywords" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Depth" ColumnName="Depth" />
+          <ScalarProperty Name="WebTypeCover" ColumnName="WebTypeCover" />
+          <ScalarProperty Name="MobileTypeCover" ColumnName="MobileTypeCover" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProRecommend">
+      <EntityTypeMapping TypeName="Sucool_DBModel.ProRecommend">
+        <MappingFragment StoreEntitySet="ProRecommend">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Pro_Id" ColumnName="Pro_Id" />
+          <ScalarProperty Name="PR_Name" ColumnName="PR_Name" />
+          <ScalarProperty Name="PR_Cover" ColumnName="PR_Cover" />
+          <ScalarProperty Name="PR_MinPrice" ColumnName="PR_MinPrice" />
+          <ScalarProperty Name="PR_MinCurrent" ColumnName="PR_MinCurrent" />
+          <ScalarProperty Name="PR_MinOriginal" ColumnName="PR_MinOriginal" />
+          <ScalarProperty Name="PR_Mark" ColumnName="PR_Mark" />
+          <ScalarProperty Name="PR_MarkStyle" ColumnName="PR_MarkStyle" />
+          <ScalarProperty Name="PR_Address" ColumnName="PR_Address" />
+          <ScalarProperty Name="PR_StartTime" ColumnName="PR_StartTime" />
+          <ScalarProperty Name="PR_Type" ColumnName="PR_Type" />
+          <ScalarProperty Name="PR_Time" ColumnName="PR_Time" />
+          <ScalarProperty Name="PR_Introduction" ColumnName="PR_Introduction" />
+          <ScalarProperty Name="PR_OrderById" ColumnName="PR_OrderById" />
+          <ScalarProperty Name="PR_MerId" ColumnName="PR_MerId" />
+          <ScalarProperty Name="PR_HotReply" ColumnName="PR_HotReply" />
+          <ScalarProperty Name="PR_HotReplyUsername" ColumnName="PR_HotReplyUsername" />
+          <ScalarProperty Name="PR_RepCount" ColumnName="PR_RepCount" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProRecord">
+      <EntityTypeMapping TypeName="Sucool_DBModel.ProRecord">
+        <MappingFragment StoreEntitySet="ProRecord">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="proid" ColumnName="proid" />
+          <ScalarProperty Name="recordtype" ColumnName="recordtype" />
+          <ScalarProperty Name="price_recordchange" ColumnName="price_recordchange" />
+          <ScalarProperty Name="procount_recordchange" ColumnName="procount_recordchange" />
+          <ScalarProperty Name="recordtime" ColumnName="recordtime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProSetType">
+      <EntityTypeMapping TypeName="Sucool_DBModel.ProSetType">
+        <MappingFragment StoreEntitySet="ProSetType">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Sort" ColumnName="Sort" />
+          <ScalarProperty Name="IsRealOrNot" ColumnName="IsRealOrNot" />
+          <ScalarProperty Name="PageType" ColumnName="PageType" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="CoverWidth" ColumnName="CoverWidth" />
+          <ScalarProperty Name="CoverHeight" ColumnName="CoverHeight" />
+          <ScalarProperty Name="ShowCount" ColumnName="ShowCount" />
+          <ScalarProperty Name="Remark" ColumnName="Remark" />
+          <ScalarProperty Name="IsShow" ColumnName="IsShow" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProSetTypeVal">
+      <EntityTypeMapping TypeName="Sucool_DBModel.ProSetTypeVal">
+        <MappingFragment StoreEntitySet="ProSetTypeVal">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="PSTId" ColumnName="PSTId" />
+          <ScalarProperty Name="Sort" ColumnName="Sort" />
+          <ScalarProperty Name="ProId" ColumnName="ProId" />
+          <ScalarProperty Name="ProName" ColumnName="ProName" />
+          <ScalarProperty Name="ProCover" ColumnName="ProCover" />
+          <ScalarProperty Name="ProStarPrice" ColumnName="ProStarPrice" />
+          <ScalarProperty Name="PageType" ColumnName="PageType" />
+          <ScalarProperty Name="Type2" ColumnName="Type2" />
+          <ScalarProperty Name="Type3" ColumnName="Type3" />
+          <ScalarProperty Name="Type4" ColumnName="Type4" />
+          <ScalarProperty Name="IsRealOrNot" ColumnName="IsRealOrNot" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="ReplyCount" ColumnName="ReplyCount" />
+          <ScalarProperty Name="AvgScore" ColumnName="AvgScore" />
+          <ScalarProperty Name="SubTitle" ColumnName="SubTitle" />
+          <ScalarProperty Name="SetDescription" ColumnName="SetDescription" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProSupplier">
+      <EntityTypeMapping TypeName="Sucool_DBModel.ProSupplier">
+        <MappingFragment StoreEntitySet="ProSupplier">
+          <ScalarProperty Name="SupplierId" ColumnName="SupplierId" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Contact" ColumnName="Contact" />
+          <ScalarProperty Name="TelNumber" ColumnName="TelNumber" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="QQ" ColumnName="QQ" />
+          <ScalarProperty Name="WWNumber" ColumnName="WWNumber" />
+          <ScalarProperty Name="FaxNumber" ColumnName="FaxNumber" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Mail" ColumnName="Mail" />
+          <ScalarProperty Name="HomeAddress" ColumnName="HomeAddress" />
+          <ScalarProperty Name="MerId" ColumnName="MerId" />
+          <ScalarProperty Name="OperatorId" ColumnName="OperatorId" />
+          <ScalarProperty Name="AddTime" ColumnName="AddTime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProTypeAttributeValue">
+      <EntityTypeMapping TypeName="Sucool_DBModel.ProTypeAttributeValue">
+        <MappingFragment StoreEntitySet="ProTypeAttributeValue">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ProId" ColumnName="ProId" />
+          <ScalarProperty Name="Type_Attr_Val_Id" ColumnName="Type_Attr_Val_Id" />
+          <ScalarProperty Name="Type_Attr_Val" ColumnName="Type_Attr_Val" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="Sort" ColumnName="Sort" />
+          <ScalarProperty Name="SortUpdateTime" ColumnName="SortUpdateTime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Purchase">
+      <EntityTypeMapping TypeName="Sucool_DBModel.Purchase">
+        <MappingFragment StoreEntitySet="Purchase">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="SKUZoneId" ColumnName="SKUZoneId" />
+          <ScalarProperty Name="ProductNumber" ColumnName="ProductNumber" />
+          <ScalarProperty Name="ProName" ColumnName="ProName" />
+          <ScalarProperty Name="ColorId" ColumnName="ColorId" />
+          <ScalarProperty Name="SizeId" ColumnName="SizeId" />
+          <ScalarProperty Name="ProCount" ColumnName="ProCount" />
+          <ScalarProperty Name="CellCount" ColumnName="CellCount" />
+          <ScalarProperty Name="AddPrice" ColumnName="AddPrice" />
+          <ScalarProperty Name="AddTime" ColumnName="AddTime" />
+          <ScalarProperty Name="AddRemark" ColumnName="AddRemark" />
+          <ScalarProperty Name="AdminId" ColumnName="AdminId" />
+          <ScalarProperty Name="SupplierId" ColumnName="SupplierId" />
+          <ScalarProperty Name="MerId" ColumnName="MerId" />
+          <ScalarProperty Name="PurStatus" ColumnName="PurStatus" />
+          <ScalarProperty Name="Type1" ColumnName="Type1" />
+          <ScalarProperty Name="Type2" ColumnName="Type2" />
+          <ScalarProperty Name="Type3" ColumnName="Type3" />
+          <ScalarProperty Name="Type4" ColumnName="Type4" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Push_MobileMessage">
+      <EntityTypeMapping TypeName="Sucool_DBModel.Push_MobileMessage">
+        <MappingFragment StoreEntitySet="Push_MobileMessage">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="msgcontents" ColumnName="msgcontents" />
+          <ScalarProperty Name="pushstatus" ColumnName="pushstatus" />
+          <ScalarProperty Name="pushtype" ColumnName="pushtype" />
+          <ScalarProperty Name="pushpara" ColumnName="pushpara" />
+          <ScalarProperty Name="pushtime" ColumnName="pushtime" />
+          <ScalarProperty Name="pushTargetId" ColumnName="pushTargetId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Push_MobileToken">
+      <EntityTypeMapping TypeName="Sucool_DBModel.Push_MobileToken">
+        <MappingFragment StoreEntitySet="Push_MobileToken">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="token" ColumnName="token" />
+          <ScalarProperty Name="addtime" ColumnName="addtime" />
+          <ScalarProperty Name="pushstatus" ColumnName="pushstatus" />
+          <ScalarProperty Name="pushid" ColumnName="pushid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="QJT_Community">
+      <EntityTypeMapping TypeName="Sucool_DBModel.QJT_Community">
+        <MappingFragment StoreEntitySet="QJT_Community">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="CommunityName" ColumnName="CommunityName" />
+          <ScalarProperty Name="ProvinceId" ColumnName="ProvinceId" />
+          <ScalarProperty Name="CityId" ColumnName="CityId" />
+          <ScalarProperty Name="CountyId" ColumnName="CountyId" />
+          <ScalarProperty Name="ProvinceName" ColumnName="ProvinceName" />
+          <ScalarProperty Name="CityName" ColumnName="CityName" />
+          <ScalarProperty Name="CountyName" ColumnName="CountyName" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="CommunityLng" ColumnName="CommunityLng" />
+          <ScalarProperty Name="CommunityLat" ColumnName="CommunityLat" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="QJT_CommunityUsers">
+      <EntityTypeMapping TypeName="Sucool_DBModel.QJT_CommunityUsers">
+        <MappingFragment StoreEntitySet="QJT_CommunityUsers">
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="CommunityId" ColumnName="CommunityId" />
+          <ScalarProperty Name="IsCommunityUser" ColumnName="IsCommunityUser" />
+          <ScalarProperty Name="IsCommunityFollow" ColumnName="IsCommunityFollow" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="QJT_FollowUser">
+      <EntityTypeMapping TypeName="Sucool_DBModel.QJT_FollowUser">
+        <MappingFragment StoreEntitySet="QJT_FollowUser">
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="FollowUserId" ColumnName="FollowUserId" />
+          <ScalarProperty Name="NoteName" ColumnName="NoteName" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="FollowType" ColumnName="FollowType" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="QJT_Images">
+      <EntityTypeMapping TypeName="Sucool_DBModel.QJT_Images">
+        <MappingFragment StoreEntitySet="QJT_Images">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ImagePath" ColumnName="ImagePath" />
+          <ScalarProperty Name="MsgId" ColumnName="MsgId" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="QJT_MessageReplys">
+      <EntityTypeMapping TypeName="Sucool_DBModel.QJT_MessageReplys">
+        <MappingFragment StoreEntitySet="QJT_MessageReplys">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Contents" ColumnName="Contents" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="ReplyTime" ColumnName="ReplyTime" />
+          <ScalarProperty Name="ReplyTopic" ColumnName="ReplyTopic" />
+          <ScalarProperty Name="ReplyParent" ColumnName="ReplyParent" />
+          <ScalarProperty Name="ReplyUser" ColumnName="ReplyUser" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="QJT_Messages">
+      <EntityTypeMapping TypeName="Sucool_DBModel.QJT_Messages">
+        <MappingFragment StoreEntitySet="QJT_Messages">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Contents" ColumnName="Contents" />
+          <ScalarProperty Name="SendTime" ColumnName="SendTime" />
+          <ScalarProperty Name="SendUser" ColumnName="SendUser" />
+          <ScalarProperty Name="CommunityId" ColumnName="CommunityId" />
+          <ScalarProperty Name="ReplyCount" ColumnName="ReplyCount" />
+          <ScalarProperty Name="CollectCount" ColumnName="CollectCount" />
+          <ScalarProperty Name="MsgImagesPath" ColumnName="MsgImagesPath" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="Start_Lng" ColumnName="Start_Lng" />
+          <ScalarProperty Name="Start_Lat" ColumnName="Start_Lat" />
+          <ScalarProperty Name="End_Lng" ColumnName="End_Lng" />
+          <ScalarProperty Name="End_Lat" ColumnName="End_Lat" />
+          <ScalarProperty Name="CarpoolName" ColumnName="CarpoolName" />
+          <ScalarProperty Name="MsgType" ColumnName="MsgType" />
+          <ScalarProperty Name="CarpoolType" ColumnName="CarpoolType" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="QJT_MobileAddr">
+      <EntityTypeMapping TypeName="Sucool_DBModel.QJT_MobileAddr">
+        <MappingFragment StoreEntitySet="QJT_MobileAddr">
+          <ScalarProperty Name="MobileNumber" ColumnName="MobileNumber" />
+          <ScalarProperty Name="CityId" ColumnName="CityId" />
+          <ScalarProperty Name="Operators" ColumnName="Operators" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="QJT_PrivateMessage">
+      <EntityTypeMapping TypeName="Sucool_DBModel.QJT_PrivateMessage">
+        <MappingFragment StoreEntitySet="QJT_PrivateMessage">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Contents" ColumnName="Contents" />
+          <ScalarProperty Name="SendUser" ColumnName="SendUser" />
+          <ScalarProperty Name="ReceiveUser" ColumnName="ReceiveUser" />
+          <ScalarProperty Name="ReceiveUserIsRead" ColumnName="ReceiveUserIsRead" />
+          <ScalarProperty Name="SendUserIsDel" ColumnName="SendUserIsDel" />
+          <ScalarProperty Name="ReceiveUserIsDel" ColumnName="ReceiveUserIsDel" />
+          <ScalarProperty Name="MessageImage" ColumnName="MessageImage" />
+          <ScalarProperty Name="SendTime" ColumnName="SendTime" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="ImageMessage" ColumnName="ImageMessage" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="QJT_ReplyRemind">
+      <EntityTypeMapping TypeName="Sucool_DBModel.QJT_ReplyRemind">
+        <MappingFragment StoreEntitySet="QJT_ReplyRemind">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Contents" ColumnName="Contents" />
+          <ScalarProperty Name="RemindUserId" ColumnName="RemindUserId" />
+          <ScalarProperty Name="FromUserId" ColumnName="FromUserId" />
+          <ScalarProperty Name="MsgId" ColumnName="MsgId" />
+          <ScalarProperty Name="RemindTime" ColumnName="RemindTime" />
+          <ScalarProperty Name="IsRead" ColumnName="IsRead" />
+          <ScalarProperty Name="IsDelete" ColumnName="IsDelete" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="QJT_UserCollect">
+      <EntityTypeMapping TypeName="Sucool_DBModel.QJT_UserCollect">
+        <MappingFragment StoreEntitySet="QJT_UserCollect">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="MsgId" ColumnName="MsgId" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Recommend">
+      <EntityTypeMapping TypeName="Sucool_DBModel.Recommend">
+        <MappingFragment StoreEntitySet="Recommend">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Cover" ColumnName="Cover" />
+          <ScalarProperty Name="Url" ColumnName="Url" />
+          <ScalarProperty Name="Sort" ColumnName="Sort" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="SetType" ColumnName="SetType" />
+          <ScalarProperty Name="Title_EN" ColumnName="Title_EN" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Reply">
+      <EntityTypeMapping TypeName="Sucool_DBModel.Reply">
+        <MappingFragment StoreEntitySet="Reply">
+          <ScalarProperty Name="R_id" ColumnName="R_id" />
+          <ScalarProperty Name="R_Topic_id" ColumnName="R_Topic_id" />
+          <ScalarProperty Name="R_Content" ColumnName="R_Content" />
+          <ScalarProperty Name="R_userid" ColumnName="R_userid" />
+          <ScalarProperty Name="R_reply" ColumnName="R_reply" />
+          <ScalarProperty Name="R_Status" ColumnName="R_Status" />
+          <ScalarProperty Name="R_Ctime" ColumnName="R_Ctime" />
+          <ScalarProperty Name="R_Type" ColumnName="R_Type" />
+          <ScalarProperty Name="Is_New" ColumnName="Is_New" />
+          <ScalarProperty Name="R_RepType" ColumnName="R_RepType" />
+          <ScalarProperty Name="IsUserReply" ColumnName="IsUserReply" />
+          <ScalarProperty Name="R_Mark" ColumnName="R_Mark" />
+          <ScalarProperty Name="IsSingleSun" ColumnName="IsSingleSun" />
+          <ScalarProperty Name="R_MarkRank" ColumnName="R_MarkRank" />
+          <ScalarProperty Name="R_ProductId" ColumnName="R_ProductId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RL_Brand">
+      <EntityTypeMapping TypeName="Sucool_DBModel.RL_Brand">
+        <MappingFragment StoreEntitySet="RL_Brand">
+          <ScalarProperty Name="B_Id" ColumnName="B_Id" />
+          <ScalarProperty Name="B_Name" ColumnName="B_Name" />
+          <ScalarProperty Name="B_Logo" ColumnName="B_Logo" />
+          <ScalarProperty Name="B_Cover" ColumnName="B_Cover" />
+          <ScalarProperty Name="B_Introduction" ColumnName="B_Introduction" />
+          <ScalarProperty Name="B_IntroductionImage" ColumnName="B_IntroductionImage" />
+          <ScalarProperty Name="B_Status" ColumnName="B_Status" />
+          <ScalarProperty Name="B_CollectCount" ColumnName="B_CollectCount" />
+          <ScalarProperty Name="B_BirthPlace" ColumnName="B_BirthPlace" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RL_BrandCollection">
+      <EntityTypeMapping TypeName="Sucool_DBModel.RL_BrandCollection">
+        <MappingFragment StoreEntitySet="RL_BrandCollection">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="BrandId" ColumnName="BrandId" />
+          <ScalarProperty Name="CollectionTime" ColumnName="CollectionTime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RL_BrandPictrues">
+      <EntityTypeMapping TypeName="Sucool_DBModel.RL_BrandPictrues">
+        <MappingFragment StoreEntitySet="RL_BrandPictrues">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="BrandId" ColumnName="BrandId" />
+          <ScalarProperty Name="Pic_Name" ColumnName="Pic_Name" />
+          <ScalarProperty Name="Pic_Desc" ColumnName="Pic_Desc" />
+          <ScalarProperty Name="Pic_Path" ColumnName="Pic_Path" />
+          <ScalarProperty Name="Pic_Time" ColumnName="Pic_Time" />
+          <ScalarProperty Name="Pic_Status" ColumnName="Pic_Status" />
+          <ScalarProperty Name="Pic_Order" ColumnName="Pic_Order" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RL_ProductIntroduction">
+      <EntityTypeMapping TypeName="Sucool_DBModel.RL_ProductIntroduction">
+        <MappingFragment StoreEntitySet="RL_ProductIntroduction">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ProductId" ColumnName="ProductId" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Contents" ColumnName="Contents" />
+          <ScalarProperty Name="status" ColumnName="status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SearchLog">
+      <EntityTypeMapping TypeName="Sucool_DBModel.SearchLog">
+        <MappingFragment StoreEntitySet="SearchLog">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Keyword" ColumnName="Keyword" />
+          <ScalarProperty Name="Time" ColumnName="Time" />
+          <ScalarProperty Name="UId" ColumnName="UId" />
+          <ScalarProperty Name="IP" ColumnName="IP" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SearchRecord">
+      <EntityTypeMapping TypeName="Sucool_DBModel.SearchRecord">
+        <MappingFragment StoreEntitySet="SearchRecord">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="KeyWords" ColumnName="KeyWords" />
+          <ScalarProperty Name="SearchTime" ColumnName="SearchTime" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ShareLog">
+      <EntityTypeMapping TypeName="Sucool_DBModel.ShareLog">
+        <MappingFragment StoreEntitySet="ShareLog">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="ProductId" ColumnName="ProductId" />
+          <ScalarProperty Name="AddTime" ColumnName="AddTime" />
+          <ScalarProperty Name="ShareType" ColumnName="ShareType" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SiteVerCode">
+      <EntityTypeMapping TypeName="Sucool_DBModel.SiteVerCode">
+        <MappingFragment StoreEntitySet="SiteVerCode">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="VerCodeKey" ColumnName="VerCodeKey" />
+          <ScalarProperty Name="VerCode" ColumnName="VerCode" />
+          <ScalarProperty Name="VerCodeFailTime" ColumnName="VerCodeFailTime" />
+          <ScalarProperty Name="VerCodeType" ColumnName="VerCodeType" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SK_Slider">
+      <EntityTypeMapping TypeName="Sucool_DBModel.SK_Slider">
+        <MappingFragment StoreEntitySet="SK_Slider">
+          <ScalarProperty Name="S_Id" ColumnName="S_Id" />
+          <ScalarProperty Name="S_Cover" ColumnName="S_Cover" />
+          <ScalarProperty Name="S_Title" ColumnName="S_Title" />
+          <ScalarProperty Name="S_LinkUrl" ColumnName="S_LinkUrl" />
+          <ScalarProperty Name="S_LinkType" ColumnName="S_LinkType" />
+          <ScalarProperty Name="S_LinkTypeId" ColumnName="S_LinkTypeId" />
+          <ScalarProperty Name="S_Sort" ColumnName="S_Sort" />
+          <ScalarProperty Name="S_STId" ColumnName="S_STId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SK_SliderType">
+      <EntityTypeMapping TypeName="Sucool_DBModel.SK_SliderType">
+        <MappingFragment StoreEntitySet="SK_SliderType">
+          <ScalarProperty Name="ST_Id" ColumnName="ST_Id" />
+          <ScalarProperty Name="ST_Name" ColumnName="ST_Name" />
+          <ScalarProperty Name="ST_TopId" ColumnName="ST_TopId" />
+          <ScalarProperty Name="ST_ParentId" ColumnName="ST_ParentId" />
+          <ScalarProperty Name="ST_Sort" ColumnName="ST_Sort" />
+          <ScalarProperty Name="ST_ShowCount" ColumnName="ST_ShowCount" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SK_UserCollection">
+      <EntityTypeMapping TypeName="Sucool_DBModel.SK_UserCollection">
+        <MappingFragment StoreEntitySet="SK_UserCollection">
+          <ScalarProperty Name="C_Id" ColumnName="C_Id" />
+          <ScalarProperty Name="C_UserId" ColumnName="C_UserId" />
+          <ScalarProperty Name="C_CollectId" ColumnName="C_CollectId" />
+          <ScalarProperty Name="C_CollectType" ColumnName="C_CollectType" />
+          <ScalarProperty Name="C_Status" ColumnName="C_Status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SKUTDataBasic">
+      <EntityTypeMapping TypeName="Sucool_DBModel.SKUTDataBasic">
+        <MappingFragment StoreEntitySet="SKUTDataBasic">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="T_Name" ColumnName="T_Name" />
+          <ScalarProperty Name="Pro_Type" ColumnName="Pro_Type" />
+          <ScalarProperty Name="TB_Type" ColumnName="TB_Type" />
+          <ScalarProperty Name="T_Type" ColumnName="T_Type" />
+          <ScalarProperty Name="TS_Type" ColumnName="TS_Type" />
+          <ScalarProperty Name="T_Cover" ColumnName="T_Cover" />
+          <ScalarProperty Name="T_Businesses" ColumnName="T_Businesses" />
+          <ScalarProperty Name="T_Introduction" ColumnName="T_Introduction" />
+          <ScalarProperty Name="T_Remark" ColumnName="T_Remark" />
+          <ScalarProperty Name="KeyWords" ColumnName="KeyWords" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="T_OrderTimeout" ColumnName="T_OrderTimeout" />
+          <ScalarProperty Name="T_Status" ColumnName="T_Status" />
+          <ScalarProperty Name="T_Set_Sta" ColumnName="T_Set_Sta" />
+          <ScalarProperty Name="T_Set_Time" ColumnName="T_Set_Time" />
+          <ScalarProperty Name="T_ClickCount" ColumnName="T_ClickCount" />
+          <ScalarProperty Name="T_SMSTemplate" ColumnName="T_SMSTemplate" />
+          <ScalarProperty Name="AddTime" ColumnName="AddTime" />
+          <ScalarProperty Name="LastStatus" ColumnName="LastStatus" />
+          <ScalarProperty Name="T_Area" ColumnName="T_Area" />
+          <ScalarProperty Name="T_FitAge" ColumnName="T_FitAge" />
+          <ScalarProperty Name="T_StartTime" ColumnName="T_StartTime" />
+          <ScalarProperty Name="T_EndTime" ColumnName="T_EndTime" />
+          <ScalarProperty Name="T_Address" ColumnName="T_Address" />
+          <ScalarProperty Name="T_Coordinate" ColumnName="T_Coordinate" />
+          <ScalarProperty Name="T_SmgType" ColumnName="T_SmgType" />
+          <ScalarProperty Name="ProMoteMessge" ColumnName="ProMoteMessge" />
+          <ScalarProperty Name="IsInvoice" ColumnName="IsInvoice" />
+          <ScalarProperty Name="IsGuarantee" ColumnName="IsGuarantee" />
+          <ScalarProperty Name="GuaranteeMessage" ColumnName="GuaranteeMessage" />
+          <ScalarProperty Name="IsSpeeDrelease" ColumnName="IsSpeeDrelease" />
+          <ScalarProperty Name="IsSevenDayReturn" ColumnName="IsSevenDayReturn" />
+          <ScalarProperty Name="IsAfterSaleService" ColumnName="IsAfterSaleService" />
+          <ScalarProperty Name="IsReturnsSafeguard" ColumnName="IsReturnsSafeguard" />
+          <ScalarProperty Name="ProvinceID" ColumnName="ProvinceID" />
+          <ScalarProperty Name="CityID" ColumnName="CityID" />
+          <ScalarProperty Name="DistrictID" ColumnName="DistrictID" />
+          <ScalarProperty Name="FreightTemplateId" ColumnName="FreightTemplateId" />
+          <ScalarProperty Name="ProWeight" ColumnName="ProWeight" />
+          <ScalarProperty Name="ProVolume" ColumnName="ProVolume" />
+          <ScalarProperty Name="SKUTZoneId" ColumnName="SKUTZoneId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SKUTTypeAttributeValue">
+      <EntityTypeMapping TypeName="Sucool_DBModel.SKUTTypeAttributeValue">
+        <MappingFragment StoreEntitySet="SKUTTypeAttributeValue">
+          <ScalarProperty Name="SKUTId" ColumnName="SKUTId" />
+          <ScalarProperty Name="Type_Attr_Val_Id" ColumnName="Type_Attr_Val_Id" />
+          <ScalarProperty Name="Type_Attr_Val" ColumnName="Type_Attr_Val" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="Sort" ColumnName="Sort" />
+          <ScalarProperty Name="SortUpdateTime" ColumnName="SortUpdateTime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SKUZone">
+      <EntityTypeMapping TypeName="Sucool_DBModel.SKUZone">
+        <MappingFragment StoreEntitySet="SKUZone">
+          <ScalarProperty Name="SKUZoneId" ColumnName="SKUZoneId" />
+          <ScalarProperty Name="MerId" ColumnName="MerId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Slider">
+      <EntityTypeMapping TypeName="Sucool_DBModel.Slider">
+        <MappingFragment StoreEntitySet="Slider">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="ImagePath" ColumnName="ImagePath" />
+          <ScalarProperty Name="Link" ColumnName="Link" />
+          <ScalarProperty Name="RTime" ColumnName="RTime" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Remark" ColumnName="Remark" />
+          <ScalarProperty Name="MerId" ColumnName="MerId" />
+          <ScalarProperty Name="LinkType" ColumnName="LinkType" />
+          <ScalarProperty Name="StartTime" ColumnName="StartTime" />
+          <ScalarProperty Name="EndTime" ColumnName="EndTime" />
+          <ScalarProperty Name="Sort" ColumnName="Sort" />
+          <ScalarProperty Name="SubTitle" ColumnName="SubTitle" />
+          <ScalarProperty Name="ProId" ColumnName="ProId" />
+          <ScalarProperty Name="ChildImage1" ColumnName="ChildImage1" />
+          <ScalarProperty Name="IsShowTitle" ColumnName="IsShowTitle" />
+          <ScalarProperty Name="EventId" ColumnName="EventId" />
+          <ScalarProperty Name="EventChange" ColumnName="EventChange" />
+          <ScalarProperty Name="ClickCount" ColumnName="ClickCount" />
+          <ScalarProperty Name="AllLabel" ColumnName="AllLabel" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SliderType">
+      <EntityTypeMapping TypeName="Sucool_DBModel.SliderType">
+        <MappingFragment StoreEntitySet="SliderType">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="EnumTypeId" ColumnName="EnumTypeId" />
+          <ScalarProperty Name="Count" ColumnName="Count" />
+          <ScalarProperty Name="Sort" ColumnName="Sort" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SMSSendTemplet">
+      <EntityTypeMapping TypeName="Sucool_DBModel.SMSSendTemplet">
+        <MappingFragment StoreEntitySet="SMSSendTemplet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="SMSContent" ColumnName="SMSContent" />
+          <ScalarProperty Name="SMSContentType" ColumnName="SMSContentType" />
+          <ScalarProperty Name="RoleId" ColumnName="RoleId" />
+          <ScalarProperty Name="RoleType" ColumnName="RoleType" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="Sucool_DBModel.sysdiagrams">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TransErrorLog">
+      <EntityTypeMapping TypeName="Sucool_DBModel.TransErrorLog">
+        <MappingFragment StoreEntitySet="TransErrorLog">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="TransName" ColumnName="TransName" />
+          <ScalarProperty Name="ErrorBody" ColumnName="ErrorBody" />
+          <ScalarProperty Name="ErrorMessage" ColumnName="ErrorMessage" />
+          <ScalarProperty Name="ErrorSeverity" ColumnName="ErrorSeverity" />
+          <ScalarProperty Name="ErrorState" ColumnName="ErrorState" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TypeAttribute">
+      <EntityTypeMapping TypeName="Sucool_DBModel.TypeAttribute">
+        <MappingFragment StoreEntitySet="TypeAttribute">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ClassId" ColumnName="ClassId" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ShowType" ColumnName="ShowType" />
+          <ScalarProperty Name="ManagerType" ColumnName="ManagerType" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="Sort" ColumnName="Sort" />
+          <ScalarProperty Name="SortUpdateTime" ColumnName="SortUpdateTime" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="IsRequired" ColumnName="IsRequired" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TypeAttributeValue">
+      <EntityTypeMapping TypeName="Sucool_DBModel.TypeAttributeValue">
+        <MappingFragment StoreEntitySet="TypeAttributeValue">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="TypeAttributeId" ColumnName="TypeAttributeId" />
+          <ScalarProperty Name="Type_Attr_Val" ColumnName="Type_Attr_Val" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="Sort" ColumnName="Sort" />
+          <ScalarProperty Name="SortUpdateTime" ColumnName="SortUpdateTime" />
+          <ScalarProperty Name="IsHot" ColumnName="IsHot" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UrlRewRules">
+      <EntityTypeMapping TypeName="Sucool_DBModel.UrlRewRules">
+        <MappingFragment StoreEntitySet="UrlRewRules">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="LookFor" ColumnName="LookFor" />
+          <ScalarProperty Name="SendTo" ColumnName="SendTo" />
+          <ScalarProperty Name="Explain" ColumnName="Explain" />
+          <ScalarProperty Name="CTime" ColumnName="CTime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserBase">
+      <EntityTypeMapping TypeName="Sucool_DBModel.UserBase">
+        <MappingFragment StoreEntitySet="UserBase">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="PassWord" ColumnName="PassWord" />
+          <ScalarProperty Name="NickName" ColumnName="NickName" />
+          <ScalarProperty Name="RegisterTime" ColumnName="RegisterTime" />
+          <ScalarProperty Name="RegisterType" ColumnName="RegisterType" />
+          <ScalarProperty Name="LastLoginTime" ColumnName="LastLoginTime" />
+          <ScalarProperty Name="LastLoginIp" ColumnName="LastLoginIp" />
+          <ScalarProperty Name="RegisterCountry" ColumnName="RegisterCountry" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="OpenKey_QQ" ColumnName="OpenKey_QQ" />
+          <ScalarProperty Name="OpenKey_SinaWB" ColumnName="OpenKey_SinaWB" />
+          <ScalarProperty Name="D_Head" ColumnName="D_Head" />
+          <ScalarProperty Name="D_UserType" ColumnName="D_UserType" />
+          <ScalarProperty Name="D_point" ColumnName="D_point" />
+          <ScalarProperty Name="D_AccBalance" ColumnName="D_AccBalance" />
+          <ScalarProperty Name="D_MobilePhone" ColumnName="D_MobilePhone" />
+          <ScalarProperty Name="CommunityId" ColumnName="CommunityId" />
+          <ScalarProperty Name="CommunityFollow" ColumnName="CommunityFollow" />
+          <ScalarProperty Name="ShareUserId" ColumnName="ShareUserId" />
+          <ScalarProperty Name="MsgLastReadId" ColumnName="MsgLastReadId" />
+          <ScalarProperty Name="CarpoolMsgLastReadId" ColumnName="CarpoolMsgLastReadId" />
+          <ScalarProperty Name="D_Sex" ColumnName="D_Sex" />
+          <ScalarProperty Name="D_Birthday" ColumnName="D_Birthday" />
+          <ScalarProperty Name="IsEmailChecked" ColumnName="IsEmailChecked" />
+          <ScalarProperty Name="OpenKey_WX" ColumnName="OpenKey_WX" />
+          <ScalarProperty Name="RegisterClientType" ColumnName="RegisterClientType" />
+          <ScalarProperty Name="Taste" ColumnName="Taste" />
+          <ScalarProperty Name="Marriage" ColumnName="Marriage" />
+          <ScalarProperty Name="MonthlyIncome" ColumnName="MonthlyIncome" />
+          <ScalarProperty Name="InvitationedCode" ColumnName="InvitationedCode" />
+          <ScalarProperty Name="MyInvitationCode" ColumnName="MyInvitationCode" />
+          <ScalarProperty Name="IsFirstBuying" ColumnName="IsFirstBuying" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserDrawRecord">
+      <EntityTypeMapping TypeName="Sucool_DBModel.UserDrawRecord">
+        <MappingFragment StoreEntitySet="UserDrawRecord">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="AwardsId" ColumnName="AwardsId" />
+          <ScalarProperty Name="AwardsName" ColumnName="AwardsName" />
+          <ScalarProperty Name="DrawName" ColumnName="DrawName" />
+          <ScalarProperty Name="WinningTime" ColumnName="WinningTime" />
+          <ScalarProperty Name="Money" ColumnName="Money" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserMessage">
+      <EntityTypeMapping TypeName="Sucool_DBModel.UserMessage">
+        <MappingFragment StoreEntitySet="UserMessage">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="SendUserId" ColumnName="SendUserId" />
+          <ScalarProperty Name="ReceiveUserId" ColumnName="ReceiveUserId" />
+          <ScalarProperty Name="SendTime" ColumnName="SendTime" />
+          <ScalarProperty Name="Countent" ColumnName="Countent" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="AttachmentName" ColumnName="AttachmentName" />
+          <ScalarProperty Name="AttachmentUrl" ColumnName="AttachmentUrl" />
+          <ScalarProperty Name="IsRead" ColumnName="IsRead" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="SendMessageIsDel" ColumnName="SendMessageIsDel" />
+          <ScalarProperty Name="ReceiveMessageIsDel" ColumnName="ReceiveMessageIsDel" />
+          <ScalarProperty Name="UserMessageType" ColumnName="UserMessageType" />
+          <ScalarProperty Name="InquiryId" ColumnName="InquiryId" />
+          <ScalarProperty Name="contents" ColumnName="contents" />
+          <ScalarProperty Name="senduid" ColumnName="senduid" />
+          <ScalarProperty Name="receiveuid" ColumnName="receiveuid" />
+          <ScalarProperty Name="send_isdel" ColumnName="send_isdel" />
+          <ScalarProperty Name="Rece_isdel" ColumnName="Rece_isdel" />
+          <ScalarProperty Name="ctime" ColumnName="ctime" />
+          <ScalarProperty Name="ProjectType" ColumnName="ProjectType" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VestUser">
+      <EntityTypeMapping TypeName="Sucool_DBModel.VestUser">
+        <MappingFragment StoreEntitySet="VestUser">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Pro_Id" ColumnName="Pro_Id" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Video">
+      <EntityTypeMapping TypeName="Sucool_DBModel.Video">
+        <MappingFragment StoreEntitySet="Video">
+          <ScalarProperty Name="VideoId" ColumnName="VideoId" />
+          <ScalarProperty Name="VideoPath" ColumnName="VideoPath" />
+          <ScalarProperty Name="Cover" ColumnName="Cover" />
+          <ScalarProperty Name="UploadTime" ColumnName="UploadTime" />
+          <ScalarProperty Name="UploadUser" ColumnName="UploadUser" />
+          <ScalarProperty Name="PlayingTime" ColumnName="PlayingTime" />
+          <ScalarProperty Name="PlayingCounts" ColumnName="PlayingCounts" />
+          <ScalarProperty Name="VideoStatus" ColumnName="VideoStatus" />
+          <ScalarProperty Name="VideoDomainName" ColumnName="VideoDomainName" />
+          <ScalarProperty Name="EnterpriseId" ColumnName="EnterpriseId" />
+          <ScalarProperty Name="ProductId" ColumnName="ProductId" />
+          <ScalarProperty Name="VideoGroup" ColumnName="VideoGroup" />
+          <ScalarProperty Name="Cover_EN" ColumnName="Cover_EN" />
+          <ScalarProperty Name="VideoPath_EN" ColumnName="VideoPath_EN" />
+          <ScalarProperty Name="PlayingTime_EN" ColumnName="PlayingTime_EN" />
+          <ScalarProperty Name="PlayingCounts_EN" ColumnName="PlayingCounts_EN" />
+          <ScalarProperty Name="MerchartId" ColumnName="MerchartId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VideoBlockFiles">
+      <EntityTypeMapping TypeName="Sucool_DBModel.VideoBlockFiles">
+        <MappingFragment StoreEntitySet="VideoBlockFiles">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Fid" ColumnName="Fid" />
+          <ScalarProperty Name="MD5" ColumnName="MD5" />
+          <ScalarProperty Name="FileName" ColumnName="FileName" />
+          <ScalarProperty Name="Chunk" ColumnName="Chunk" />
+          <ScalarProperty Name="PostedTime" ColumnName="PostedTime" />
+          <ScalarProperty Name="Uid" ColumnName="Uid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VideoUploadFile">
+      <EntityTypeMapping TypeName="Sucool_DBModel.VideoUploadFile">
+        <MappingFragment StoreEntitySet="VideoUploadFile">
+          <ScalarProperty Name="Fid" ColumnName="Fid" />
+          <ScalarProperty Name="Uid" ColumnName="Uid" />
+          <ScalarProperty Name="FileNameLocal" ColumnName="FileNameLocal" />
+          <ScalarProperty Name="FileNameRemote" ColumnName="FileNameRemote" />
+          <ScalarProperty Name="FilePathLocal" ColumnName="FilePathLocal" />
+          <ScalarProperty Name="FilePathRemote" ColumnName="FilePathRemote" />
+          <ScalarProperty Name="FilePathRelative" ColumnName="FilePathRelative" />
+          <ScalarProperty Name="FileMD5" ColumnName="FileMD5" />
+          <ScalarProperty Name="FileLength" ColumnName="FileLength" />
+          <ScalarProperty Name="FileSize" ColumnName="FileSize" />
+          <ScalarProperty Name="FilePos" ColumnName="FilePos" />
+          <ScalarProperty Name="PostedLength" ColumnName="PostedLength" />
+          <ScalarProperty Name="PostedPercent" ColumnName="PostedPercent" />
+          <ScalarProperty Name="PostComplete" ColumnName="PostComplete" />
+          <ScalarProperty Name="PostedTime" ColumnName="PostedTime" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="FileSubmitId" ColumnName="FileSubmitId" />
+          <ScalarProperty Name="Chunks" ColumnName="Chunks" />
+          <ScalarProperty Name="Chunk" ColumnName="Chunk" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

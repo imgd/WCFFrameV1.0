@@ -1,0 +1,11 @@
+G:\mywork\其他项目\项目框架\WcfFrameT1_0\WCF.Service.MSMQ\bin\Debug\WCF.Service.MSMQ.dll
+G:\mywork\其他项目\项目框架\WcfFrameT1_0\WCF.Service.MSMQ\bin\Debug\WCF.Service.MSMQ.pdb
+G:\mywork\其他项目\项目框架\WcfFrameT1_0\WCF.Service.MSMQ\bin\Debug\WCF.Common.dll
+G:\mywork\其他项目\项目框架\WcfFrameT1_0\WCF.Service.MSMQ\bin\Debug\WCF.Model.Service.dll
+G:\mywork\其他项目\项目框架\WcfFrameT1_0\WCF.Service.MSMQ\bin\Debug\WCF.Inspector.dll
+G:\mywork\其他项目\项目框架\WcfFrameT1_0\WCF.Service.MSMQ\bin\Debug\WCF.Common.pdb
+G:\mywork\其他项目\项目框架\WcfFrameT1_0\WCF.Service.MSMQ\bin\Debug\WCF.Model.Service.pdb
+G:\mywork\其他项目\项目框架\WcfFrameT1_0\WCF.Service.MSMQ\bin\Debug\WCF.Inspector.pdb
+G:\mywork\其他项目\项目框架\WcfFrameT1_0\WCF.Service.MSMQ\obj\Debug\WCF.Service.MSMQ.csprojResolveAssemblyReference.cache
+G:\mywork\其他项目\项目框架\WcfFrameT1_0\WCF.Service.MSMQ\obj\Debug\WCF.Service.MSMQ.dll
+G:\mywork\其他项目\项目框架\WcfFrameT1_0\WCF.Service.MSMQ\obj\Debug\WCF.Service.MSMQ.pdb

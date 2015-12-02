@@ -1,0 +1,2 @@
+﻿说明：业务逻辑接口 公布实现层
+Factory="System.ServiceModel.Activation.WebServiceHostFactory"

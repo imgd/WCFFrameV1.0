@@ -1,0 +1,7 @@
+G:\mywork\其他项目\项目框架\WcfFrameT1_0\WCF.Common\bin\Debug\WCF.Common.dll
+G:\mywork\其他项目\项目框架\WcfFrameT1_0\WCF.Common\bin\Debug\WCF.Common.pdb
+G:\mywork\其他项目\项目框架\WcfFrameT1_0\WCF.Common\obj\Debug\WCF.Common.dll
+G:\mywork\其他项目\项目框架\WcfFrameT1_0\WCF.Common\obj\Debug\WCF.Common.pdb
+G:\mywork\其他项目\项目框架\WcfFrameT1_0\WCF.Service\dll\WCF.Common.dll
+G:\mywork\其他项目\项目框架\WcfFrameT1_0\WCF.Service\dll\WCF.Common.pdb
+G:\mywork\其他项目\项目框架\WcfFrameT1_0\WCF.Common\obj\Debug\WCF.Common.csprojResolveAssemblyReference.cache

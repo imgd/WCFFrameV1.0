@@ -1,0 +1,155 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCF.Model.Data", "WCF.Model.Data\WCF.Model.Data.csproj", "{36103921-3FA9-489C-8D91-03F718E14131}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCF.Model.Service", "WCF.Model.Service\WCF.Model.Service.csproj", "{AB6CDE76-3237-4DFB-82E0-E88DA89917E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCF.IDAL", "WCF.IDAL\WCF.IDAL.csproj", "{4DCDEBD6-472F-4ADD-ABDA-D4AEFC278517}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCF.DAL", "WCF.DAL\WCF.DAL.csproj", "{B3F3A21C-98BC-4475-A0F8-BA9C694BB4FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCF.IBLL", "WCF.IBLL\WCF.IBLL.csproj", "{DB236F54-FEB3-423D-A3FC-52395EBF84C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCF.BLL", "WCF.BLL\WCF.BLL.csproj", "{752C9C2A-F8C4-4293-9C27-EEDE4368030E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCF.Service.Interface", "WCF.Service.Interface\WCF.Service.Interface.csproj", "{42C49E22-5E11-46BC-99DF-8F616F0F28F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCF.Service.Control", "WCF.Service.Control\WCF.Service.Control.csproj", "{7CFD41CD-58E2-4D86-9746-10D2FB2E0582}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCF.Common", "WCF.Common\WCF.Common.csproj", "{4B475E7D-74BA-41C6-B138-DE3727261950}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCF.Service", "WCF.Service\WCF.Service.csproj", "{08BC7EE5-0470-4C10-931F-410E5F407936}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCF.Inspector", "WCF.Inspector\WCF.Inspector.csproj", "{CA003BA8-2CDB-4D0A-ACAE-F2B4C217FAC1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCF.Alipay", "WCF.Alipay\WCF.Alipay.csproj", "{1E1D63B7-843F-4285-848C-08184CB343EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCF.Client.Queue", "WCF.Client\WCF.Client.Queue.csproj", "{ED395A66-7162-454C-9D11-EB6D599434A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCF.Service.MSMQ", "WCF.Service.MSMQ\WCF.Service.MSMQ.csproj", "{64FF8808-6060-4B91-8243-09884C50FC49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCF.UnitTest", "UnitTestWCF\WCF.UnitTest.csproj", "{D8AF6569-F157-4E04-8692-6CBF35494F15}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 16
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://wcfframe.visualstudio.com/defaultcollection
+		SccProjectUniqueName0 = WCF.Alipay\\WCF.Alipay.csproj
+		SccProjectName0 = WCF.Alipay
+		SccLocalPath0 = WCF.Alipay
+		SccProjectUniqueName1 = WCF.BLL\\WCF.BLL.csproj
+		SccProjectName1 = WCF.BLL
+		SccLocalPath1 = WCF.BLL
+		SccProjectUniqueName2 = WCF.Common\\WCF.Common.csproj
+		SccProjectName2 = WCF.Common
+		SccLocalPath2 = WCF.Common
+		SccProjectUniqueName3 = WCF.DAL\\WCF.DAL.csproj
+		SccProjectName3 = WCF.DAL
+		SccLocalPath3 = WCF.DAL
+		SccProjectUniqueName4 = WCF.IBLL\\WCF.IBLL.csproj
+		SccProjectName4 = WCF.IBLL
+		SccLocalPath4 = WCF.IBLL
+		SccProjectUniqueName5 = WCF.IDAL\\WCF.IDAL.csproj
+		SccProjectName5 = WCF.IDAL
+		SccLocalPath5 = WCF.IDAL
+		SccProjectUniqueName6 = WCF.Inspector\\WCF.Inspector.csproj
+		SccProjectName6 = WCF.Inspector
+		SccLocalPath6 = WCF.Inspector
+		SccProjectUniqueName7 = WCF.Model.Data\\WCF.Model.Data.csproj
+		SccProjectName7 = WCF.Model.Data
+		SccLocalPath7 = WCF.Model.Data
+		SccProjectUniqueName8 = WCF.Model.Service\\WCF.Model.Service.csproj
+		SccProjectName8 = WCF.Model.Service
+		SccLocalPath8 = WCF.Model.Service
+		SccProjectUniqueName9 = WCF.Service.Control\\WCF.Service.Control.csproj
+		SccProjectName9 = WCF.Service.Control
+		SccLocalPath9 = WCF.Service.Control
+		SccProjectUniqueName10 = WCF.Service.Interface\\WCF.Service.Interface.csproj
+		SccProjectName10 = WCF.Service.Interface
+		SccLocalPath10 = WCF.Service.Interface
+		SccProjectUniqueName11 = WCF.Service\\WCF.Service.csproj
+		SccProjectName11 = WCF.Service
+		SccLocalPath11 = WCF.Service
+		SccProjectUniqueName12 = WCF.Service.MSMQ\\WCF.Service.MSMQ.csproj
+		SccProjectName12 = WCF.Service.MSMQ
+		SccLocalPath12 = WCF.Service.MSMQ
+		SccProjectUniqueName13 = WCF.Client\\WCF.Client.Queue.csproj
+		SccProjectName13 = WCF.Client
+		SccLocalPath13 = WCF.Client
+		SccProjectUniqueName14 = UnitTestWCF\\WCF.UnitTest.csproj
+		SccProjectName14 = UnitTestWCF
+		SccLocalPath14 = UnitTestWCF
+		SccLocalPath15 = .
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{36103921-3FA9-489C-8D91-03F718E14131}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36103921-3FA9-489C-8D91-03F718E14131}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36103921-3FA9-489C-8D91-03F718E14131}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36103921-3FA9-489C-8D91-03F718E14131}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB6CDE76-3237-4DFB-82E0-E88DA89917E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB6CDE76-3237-4DFB-82E0-E88DA89917E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB6CDE76-3237-4DFB-82E0-E88DA89917E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB6CDE76-3237-4DFB-82E0-E88DA89917E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DCDEBD6-472F-4ADD-ABDA-D4AEFC278517}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DCDEBD6-472F-4ADD-ABDA-D4AEFC278517}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DCDEBD6-472F-4ADD-ABDA-D4AEFC278517}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DCDEBD6-472F-4ADD-ABDA-D4AEFC278517}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3F3A21C-98BC-4475-A0F8-BA9C694BB4FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3F3A21C-98BC-4475-A0F8-BA9C694BB4FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3F3A21C-98BC-4475-A0F8-BA9C694BB4FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3F3A21C-98BC-4475-A0F8-BA9C694BB4FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB236F54-FEB3-423D-A3FC-52395EBF84C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB236F54-FEB3-423D-A3FC-52395EBF84C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB236F54-FEB3-423D-A3FC-52395EBF84C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB236F54-FEB3-423D-A3FC-52395EBF84C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{752C9C2A-F8C4-4293-9C27-EEDE4368030E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{752C9C2A-F8C4-4293-9C27-EEDE4368030E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{752C9C2A-F8C4-4293-9C27-EEDE4368030E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{752C9C2A-F8C4-4293-9C27-EEDE4368030E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42C49E22-5E11-46BC-99DF-8F616F0F28F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42C49E22-5E11-46BC-99DF-8F616F0F28F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42C49E22-5E11-46BC-99DF-8F616F0F28F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42C49E22-5E11-46BC-99DF-8F616F0F28F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CFD41CD-58E2-4D86-9746-10D2FB2E0582}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CFD41CD-58E2-4D86-9746-10D2FB2E0582}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CFD41CD-58E2-4D86-9746-10D2FB2E0582}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CFD41CD-58E2-4D86-9746-10D2FB2E0582}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B475E7D-74BA-41C6-B138-DE3727261950}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B475E7D-74BA-41C6-B138-DE3727261950}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B475E7D-74BA-41C6-B138-DE3727261950}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B475E7D-74BA-41C6-B138-DE3727261950}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08BC7EE5-0470-4C10-931F-410E5F407936}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08BC7EE5-0470-4C10-931F-410E5F407936}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08BC7EE5-0470-4C10-931F-410E5F407936}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08BC7EE5-0470-4C10-931F-410E5F407936}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA003BA8-2CDB-4D0A-ACAE-F2B4C217FAC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA003BA8-2CDB-4D0A-ACAE-F2B4C217FAC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA003BA8-2CDB-4D0A-ACAE-F2B4C217FAC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA003BA8-2CDB-4D0A-ACAE-F2B4C217FAC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E1D63B7-843F-4285-848C-08184CB343EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E1D63B7-843F-4285-848C-08184CB343EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E1D63B7-843F-4285-848C-08184CB343EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E1D63B7-843F-4285-848C-08184CB343EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED395A66-7162-454C-9D11-EB6D599434A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED395A66-7162-454C-9D11-EB6D599434A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED395A66-7162-454C-9D11-EB6D599434A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED395A66-7162-454C-9D11-EB6D599434A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64FF8808-6060-4B91-8243-09884C50FC49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64FF8808-6060-4B91-8243-09884C50FC49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64FF8808-6060-4B91-8243-09884C50FC49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64FF8808-6060-4B91-8243-09884C50FC49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8AF6569-F157-4E04-8692-6CBF35494F15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8AF6569-F157-4E04-8692-6CBF35494F15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8AF6569-F157-4E04-8692-6CBF35494F15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8AF6569-F157-4E04-8692-6CBF35494F15}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,12 @@
+G:\mywork\其他项目\项目框架\WcfFrameT1_0\WCF.DAL\obj\Debug\WCF.DAL.csprojResolveAssemblyReference.cache
+G:\mywork\其他项目\项目框架\WcfFrameT1_0\WCF.DAL\bin\Debug\WCF.DAL.dll
+G:\mywork\其他项目\项目框架\WcfFrameT1_0\WCF.DAL\bin\Debug\WCF.DAL.pdb
+G:\mywork\其他项目\项目框架\WcfFrameT1_0\WCF.DAL\bin\Debug\EntityFramework.dll
+G:\mywork\其他项目\项目框架\WcfFrameT1_0\WCF.DAL\bin\Debug\WCF.IDAL.dll
+G:\mywork\其他项目\项目框架\WcfFrameT1_0\WCF.DAL\bin\Debug\WCF.Model.Data.dll
+G:\mywork\其他项目\项目框架\WcfFrameT1_0\WCF.DAL\bin\Debug\WCF.IDAL.pdb
+G:\mywork\其他项目\项目框架\WcfFrameT1_0\WCF.DAL\bin\Debug\WCF.Model.Data.pdb
+G:\mywork\其他项目\项目框架\WcfFrameT1_0\WCF.DAL\obj\Debug\WCF.DAL.dll
+G:\mywork\其他项目\项目框架\WcfFrameT1_0\WCF.DAL\obj\Debug\WCF.DAL.pdb
+G:\mywork\其他项目\项目框架\WcfFrameT1_0\WCF.Service\dll\WCF.DAL.dll
+G:\mywork\其他项目\项目框架\WcfFrameT1_0\WCF.Service\dll\WCF.DAL.pdb

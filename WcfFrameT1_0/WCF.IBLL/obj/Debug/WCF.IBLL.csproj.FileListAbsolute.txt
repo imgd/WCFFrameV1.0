@@ -1,0 +1,12 @@
+G:\mywork\其他项目\项目框架\WcfFrameT1_0\WCF.IBLL\obj\Debug\WCF.IBLL.csprojResolveAssemblyReference.cache
+G:\mywork\其他项目\项目框架\WcfFrameT1_0\WCF.IBLL\bin\Debug\WCF.IBLL.dll
+G:\mywork\其他项目\项目框架\WcfFrameT1_0\WCF.IBLL\bin\Debug\WCF.IBLL.pdb
+G:\mywork\其他项目\项目框架\WcfFrameT1_0\WCF.IBLL\bin\Debug\WCF.Model.Data.dll
+G:\mywork\其他项目\项目框架\WcfFrameT1_0\WCF.IBLL\bin\Debug\EntityFramework.dll
+G:\mywork\其他项目\项目框架\WcfFrameT1_0\WCF.IBLL\bin\Debug\WCF.Model.Data.pdb
+G:\mywork\其他项目\项目框架\WcfFrameT1_0\WCF.IBLL\bin\Debug\EntityFramework.xml
+G:\mywork\其他项目\项目框架\WcfFrameT1_0\WCF.IBLL\bin\Debug\zh-Hans\EntityFramework.resources.dll
+G:\mywork\其他项目\项目框架\WcfFrameT1_0\WCF.IBLL\obj\Debug\WCF.IBLL.dll
+G:\mywork\其他项目\项目框架\WcfFrameT1_0\WCF.IBLL\obj\Debug\WCF.IBLL.pdb
+G:\mywork\其他项目\项目框架\WcfFrameT1_0\WCF.Service\dll\WCF.IBLL.dll
+G:\mywork\其他项目\项目框架\WcfFrameT1_0\WCF.Service\dll\WCF.IBLL.pdb

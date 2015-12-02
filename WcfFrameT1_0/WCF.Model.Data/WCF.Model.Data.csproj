@@ -1,0 +1,439 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{36103921-3FA9-489C-8D91-03F718E14131}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WCF.Model.Data</RootNamespace>
+    <AssemblyName>WCF.Model.Data</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\WCF.Service\dll\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.5.0.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdminUsers.cs">
+      <DependentUpon>Sucool.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Aftersales.cs">
+      <DependentUpon>Sucool.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AreaData.cs">
+      <DependentUpon>Sucool.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BalanceOfPaymentsDetails.cs">
+      <DependentUpon>Sucool.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BalDetail.cs">
+      <DependentUpon>Sucool.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ChatMessage.cs">
+      <DependentUpon>Sucool.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Consult.cs">
+      <DependentUpon>Sucool.tt</DependentUpon>
+    </Compile>
+    <Compile Include="County.cs">
+      <DependentUpon>Sucool.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CouponsInvalidRemind.cs">
+      <DependentUpon>Sucool.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DLY_Admin.cs">
+      <DependentUpon>Sucool.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Dly_CellsMenu.cs">
+      <DependentUpon>Sucool.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DLy_Limits.cs">
+      <DependentUpon>Sucool.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Edm.cs">
+      <DependentUpon>Sucool.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EdmImportData.cs">
+      <DependentUpon>Sucool.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EmailBook.cs">
+      <DependentUpon>Sucool.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Enterprise.cs">
+      <DependentUpon>Sucool.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EnterpriseRecommend.cs">
+      <DependentUpon>Sucool.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ErrorStatus.cs">
+      <DependentUpon>Sucool.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EventRemind.cs">
+      <DependentUpon>Sucool.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EventsProducts.cs">
+      <DependentUpon>Sucool.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Events_Data.cs">
+      <DependentUpon>Sucool.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FailLog.cs">
+      <DependentUpon>Sucool.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FAQ.cs">
+      <DependentUpon>Sucool.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Favorites.cs">
+      <DependentUpon>Sucool.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Feedback.cs">
+      <DependentUpon>Sucool.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FreightTemplate.cs">
+      <DependentUpon>Sucool.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FreightValAlg.cs">
+      <DependentUpon>Sucool.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FriendLinks.cs">
+      <DependentUpon>Sucool.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GoldBook.cs">
+      <DependentUpon>Sucool.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GoldLimit.cs">
+      <DependentUpon>Sucool.tt</DependentUpon>
+    </Compile>
+    <Compile Include="HelpCenter.cs">
+      <DependentUpon>Sucool.tt</DependentUpon>
+    </Compile>
+    <Compile Include="HelpSite.cs">
+      <DependentUpon>Sucool.tt</DependentUpon>
+    </Compile>
+    <Compile Include="HotSearch.cs">
+      <DependentUpon>Sucool.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Industry.cs">
+      <DependentUpon>Sucool.tt</DependentUpon>
+    </Compile>
+    <Compile Include="InstallLog.cs">
+      <DependentUpon>Sucool.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Integral_Details.cs">
+      <DependentUpon>Sucool.tt</DependentUpon>
+    </Compile>
+    <Compile Include="InvitationUser.cs">
+      <DependentUpon>Sucool.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LogisticsCompany.cs">
+      <DependentUpon>Sucool.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Merchant_CellsMenu.cs">
+      <DependentUpon>Sucool.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Merchant_Group.cs">
+      <DependentUpon>Sucool.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Merchant_GroupOrder.cs">
+      <DependentUpon>Sucool.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Merchant_Group_Limits.cs">
+      <DependentUpon>Sucool.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MerchartChild.cs">
+      <DependentUpon>Sucool.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Message.cs">
+      <DependentUpon>Sucool.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Offer.cs">
+      <DependentUpon>Sucool.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OrderAddress.cs">
+      <DependentUpon>Sucool.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Orderinfo.cs">
+      <DependentUpon>Sucool.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OrderPayMoneyRemind.cs">
+      <DependentUpon>Sucool.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OrderProcessMessage.cs">
+      <DependentUpon>Sucool.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Order_RealPro_Info.cs">
+      <DependentUpon>Sucool.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PaymentCard.cs">
+      <DependentUpon>Sucool.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PerMark.cs">
+      <DependentUpon>Sucool.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PerPictrues.cs">
+      <DependentUpon>Sucool.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PriNum_Data.cs">
+      <DependentUpon>Sucool.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ProBrowseLog.cs">
+      <DependentUpon>Sucool.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ProDataBasic.cs">
+      <DependentUpon>Sucool.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ProducingTraceableDynamic.cs">
+      <DependentUpon>Sucool.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Product.cs">
+      <DependentUpon>Sucool.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ProductPicture.cs">
+      <DependentUpon>Sucool.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ProductType.cs">
+      <DependentUpon>Sucool.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ProRecommend.cs">
+      <DependentUpon>Sucool.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ProRecord.cs">
+      <DependentUpon>Sucool.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ProSetType.cs">
+      <DependentUpon>Sucool.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ProSetTypeVal.cs">
+      <DependentUpon>Sucool.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ProSupplier.cs">
+      <DependentUpon>Sucool.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ProTypeAttributeValue.cs">
+      <DependentUpon>Sucool.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Purchase.cs">
+      <DependentUpon>Sucool.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Push_MobileMessage.cs">
+      <DependentUpon>Sucool.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Push_MobileToken.cs">
+      <DependentUpon>Sucool.tt</DependentUpon>
+    </Compile>
+    <Compile Include="QJT_Community.cs">
+      <DependentUpon>Sucool.tt</DependentUpon>
+    </Compile>
+    <Compile Include="QJT_CommunityUsers.cs">
+      <DependentUpon>Sucool.tt</DependentUpon>
+    </Compile>
+    <Compile Include="QJT_FollowUser.cs">
+      <DependentUpon>Sucool.tt</DependentUpon>
+    </Compile>
+    <Compile Include="QJT_Images.cs">
+      <DependentUpon>Sucool.tt</DependentUpon>
+    </Compile>
+    <Compile Include="QJT_MessageReplys.cs">
+      <DependentUpon>Sucool.tt</DependentUpon>
+    </Compile>
+    <Compile Include="QJT_Messages.cs">
+      <DependentUpon>Sucool.tt</DependentUpon>
+    </Compile>
+    <Compile Include="QJT_MobileAddr.cs">
+      <DependentUpon>Sucool.tt</DependentUpon>
+    </Compile>
+    <Compile Include="QJT_PrivateMessage.cs">
+      <DependentUpon>Sucool.tt</DependentUpon>
+    </Compile>
+    <Compile Include="QJT_ReplyRemind.cs">
+      <DependentUpon>Sucool.tt</DependentUpon>
+    </Compile>
+    <Compile Include="QJT_UserCollect.cs">
+      <DependentUpon>Sucool.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Recommend.cs">
+      <DependentUpon>Sucool.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Reply.cs">
+      <DependentUpon>Sucool.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RL_Brand.cs">
+      <DependentUpon>Sucool.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RL_BrandCollection.cs">
+      <DependentUpon>Sucool.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RL_BrandPictrues.cs">
+      <DependentUpon>Sucool.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RL_ProductIntroduction.cs">
+      <DependentUpon>Sucool.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SearchLog.cs">
+      <DependentUpon>Sucool.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SearchRecord.cs">
+      <DependentUpon>Sucool.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ShareLog.cs">
+      <DependentUpon>Sucool.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SiteVerCode.cs">
+      <DependentUpon>Sucool.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SKUTDataBasic.cs">
+      <DependentUpon>Sucool.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SKUTTypeAttributeValue.cs">
+      <DependentUpon>Sucool.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SKUZone.cs">
+      <DependentUpon>Sucool.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SK_Slider.cs">
+      <DependentUpon>Sucool.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SK_SliderType.cs">
+      <DependentUpon>Sucool.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SK_UserCollection.cs">
+      <DependentUpon>Sucool.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Slider.cs">
+      <DependentUpon>Sucool.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SliderType.cs">
+      <DependentUpon>Sucool.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SMSSendTemplet.cs">
+      <DependentUpon>Sucool.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Sucool.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Sucool.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Sucool.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Sucool.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Sucool.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Sucool.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="sysdiagrams.cs">
+      <DependentUpon>Sucool.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TransErrorLog.cs">
+      <DependentUpon>Sucool.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TypeAttribute.cs">
+      <DependentUpon>Sucool.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TypeAttributeValue.cs">
+      <DependentUpon>Sucool.tt</DependentUpon>
+    </Compile>
+    <Compile Include="UrlRewRules.cs">
+      <DependentUpon>Sucool.tt</DependentUpon>
+    </Compile>
+    <Compile Include="UserBase.cs">
+      <DependentUpon>Sucool.tt</DependentUpon>
+    </Compile>
+    <Compile Include="UserDrawRecord.cs">
+      <DependentUpon>Sucool.tt</DependentUpon>
+    </Compile>
+    <Compile Include="UserMessage.cs">
+      <DependentUpon>Sucool.tt</DependentUpon>
+    </Compile>
+    <Compile Include="VestUser.cs">
+      <DependentUpon>Sucool.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Video.cs">
+      <DependentUpon>Sucool.tt</DependentUpon>
+    </Compile>
+    <Compile Include="VideoBlockFiles.cs">
+      <DependentUpon>Sucool.tt</DependentUpon>
+    </Compile>
+    <Compile Include="VideoUploadFile.cs">
+      <DependentUpon>Sucool.tt</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="desc.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <EntityDeploy Include="Sucool.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>Sucool.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Sucool.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Sucool.edmx</DependentUpon>
+      <LastGenOutput>Sucool.Context.cs</LastGenOutput>
+    </None>
+    <None Include="Sucool.edmx.diagram">
+      <DependentUpon>Sucool.edmx</DependentUpon>
+    </None>
+    <None Include="Sucool.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Sucool.edmx</DependentUpon>
+      <LastGenOutput>Sucool.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="enum\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
